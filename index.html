@@ -1,0 +1,1959 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ===== PRIMARY SEO ===== -->
+  <title>Palak | UI/UX Designer — Freelance & Full-Time | Mohali, India</title>
+  <meta name="description" content="Palak is a UI/UX Designer with 3+ years of experience crafting clean, user-centered digital products. Open to freelance projects and full-time roles. Skilled in Figma, Adobe XD, UX Research, Prototyping & Design Systems." />
+  <meta name="keywords" content="UI UX Designer, Freelance UI Designer, Figma Designer, Product Designer, UX Designer India, UI Designer Mohali, Mobile App Designer, Web Designer, Design Systems, User Research, Prototyping, Palak portfolio" />
+  <meta name="author" content="Palak" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://palak-portfolio.vercel.app/" />
+
+  <!-- ===== OPEN GRAPH (Facebook / LinkedIn previews) ===== -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://palak-portfolio.vercel.app/" />
+  <meta property="og:title" content="Palak | UI/UX Designer — Open for Freelance & Full-Time" />
+  <meta property="og:description" content="3+ years crafting clean, user-centred digital products. Skilled in Figma, Adobe XD, Prototyping & Design Systems. Based in Mohali, India — available worldwide." />
+  <meta property="og:locale" content="en_IN" />
+  <meta property="og:site_name" content="Palak — UI/UX Designer Portfolio" />
+
+  <!-- ===== TWITTER CARD ===== -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Palak | UI/UX Designer — Open for Freelance & Full-Time" />
+  <meta name="twitter:description" content="3+ years crafting clean, user-centred digital products. Figma · Adobe XD · Prototyping · Design Systems. Based in Mohali, India." />
+  <meta name="twitter:creator" content="@palak" />
+
+  <!-- ===== STRUCTURED DATA (JSON-LD) ===== -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Palak",
+    "jobTitle": "UI/UX Designer",
+    "description": "UI/UX Designer with 3+ years of experience crafting clean, user-centered digital products. Open to freelance projects and full-time roles.",
+    "url": "https://palak-portfolio.vercel.app/",
+    "email": "palak7989@gmail.com",
+    "telephone": "+917814604551",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Mohali",
+      "addressRegion": "Punjab",
+      "addressCountry": "IN"
+    },
+    "sameAs": [
+      "https://www.behance.net/palak6",
+      "https://www.linkedin.com/in/palak123"
+    ],
+    "knowsAbout": [
+      "UI Design", "UX Design", "Figma", "Adobe XD", "Prototyping",
+      "Wireframing", "Design Systems", "UX Research", "Usability Testing",
+      "WordPress", "Framer", "HTML", "CSS"
+    ],
+    "seeks": {
+      "@type": "JobPosting",
+      "title": "UI/UX Designer",
+      "employmentType": ["FULL_TIME", "CONTRACTOR"],
+      "jobLocationType": "TELECOMMUTE"
+    }
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet" />
+  <style>
+    /* ============================================================
+       CSS RESET & VARIABLES
+    ============================================================ */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg:        #fafafa;
+      --surface:   #ffffff;
+      --surface2:  #f4f4f5;
+      --border:    #e4e4e7;
+      --text:      #09090b;
+      --muted:     #71717a;
+      --accent:    #6c63ff;
+      --accent2:   #ff6584;
+      --accent-lt: #ede9ff;
+      --radius:    14px;
+      --shadow:    0 4px 24px rgba(0,0,0,.07);
+      --shadow-lg: 0 12px 48px rgba(0,0,0,.11);
+      --nav-h:     68px;
+      --transition: .35s cubic-bezier(.4,0,.2,1);
+    }
+    html { scroll-behavior: smooth; font-size: 16px; }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+    a { color: inherit; text-decoration: none; }
+    img { max-width: 100%; display: block; }
+    ul { list-style: none; }
+
+    /* ============================================================
+       SCROLLBAR
+    ============================================================ */
+    ::-webkit-scrollbar { width: 6px; }
+    ::-webkit-scrollbar-track { background: var(--surface2); }
+    ::-webkit-scrollbar-thumb { background: var(--accent); border-radius: 99px; }
+
+    /* ============================================================
+       UTILITY
+    ============================================================ */
+    .container { max-width: 1160px; margin: 0 auto; padding: 0 24px; }
+    .tag {
+      display: inline-flex; align-items: center; gap: 6px;
+      font-size: .75rem; font-weight: 600; letter-spacing: .06em;
+      text-transform: uppercase; color: var(--accent);
+      background: var(--accent-lt); padding: 5px 12px; border-radius: 99px;
+    }
+    .section-title {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(2rem, 5vw, 3rem);
+      font-weight: 700; line-height: 1.15; color: var(--text);
+    }
+    .section-sub { font-size: 1rem; color: var(--muted); margin-top: 10px; max-width: 520px; }
+    .btn {
+      display: inline-flex; align-items: center; gap: 8px;
+      padding: 13px 26px; border-radius: 99px;
+      font-size: .9rem; font-weight: 600; cursor: pointer;
+      transition: var(--transition); border: none;
+    }
+    .btn-primary {
+      background: var(--accent); color: #fff;
+      box-shadow: 0 4px 20px rgba(108,99,255,.35);
+    }
+    .btn-primary:hover { background: #5a52e0; transform: translateY(-2px); box-shadow: 0 8px 28px rgba(108,99,255,.45); }
+    .btn-ghost {
+      background: transparent; color: var(--text);
+      border: 1.5px solid var(--border);
+    }
+    .btn-ghost:hover { border-color: var(--accent); color: var(--accent); transform: translateY(-2px); }
+
+    /* ============================================================
+       CURSOR GLOW
+    ============================================================ */
+    #cursor-glow {
+      position: fixed; pointer-events: none; z-index: 9999;
+      width: 320px; height: 320px; border-radius: 50%;
+      background: radial-gradient(circle, rgba(108,99,255,.12) 0%, transparent 70%);
+      transform: translate(-50%,-50%);
+      transition: opacity .3s;
+    }
+
+    /* ============================================================
+       NAVIGATION
+    ============================================================ */
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      height: var(--nav-h);
+      background: rgba(250,250,250,.82);
+      backdrop-filter: blur(18px);
+      -webkit-backdrop-filter: blur(18px);
+      border-bottom: 1px solid var(--border);
+      display: flex; align-items: center;
+      transition: box-shadow .3s;
+    }
+    nav.scrolled { box-shadow: 0 4px 32px rgba(0,0,0,.08); }
+    .nav-inner {
+      width: 100%; max-width: 1160px; margin: 0 auto; padding: 0 24px;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .nav-logo {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.4rem; font-weight: 700; color: var(--text);
+      letter-spacing: -.01em;
+    }
+    .nav-logo span { color: var(--accent); }
+    .nav-links { display: flex; gap: 8px; align-items: center; }
+    .nav-links a {
+      font-size: .875rem; font-weight: 500; color: var(--muted);
+      padding: 7px 14px; border-radius: 8px;
+      transition: var(--transition);
+    }
+    .nav-links a:hover, .nav-links a.active { color: var(--text); background: var(--surface2); }
+    .nav-cta { margin-left: 12px; }
+    .hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; padding: 4px; }
+    .hamburger span { width: 24px; height: 2px; background: var(--text); border-radius: 2px; transition: var(--transition); }
+    .mobile-menu {
+      display: none; position: fixed; top: var(--nav-h); left: 0; right: 0; bottom: 0;
+      background: var(--surface); z-index: 99; padding: 32px 24px;
+      flex-direction: column; gap: 8px;
+    }
+    .mobile-menu.open { display: flex; }
+    .mobile-menu a { font-size: 1.2rem; font-weight: 600; padding: 14px 0; border-bottom: 1px solid var(--border); color: var(--text); }
+
+    /* ============================================================
+       HERO
+    ============================================================ */
+    #hero {
+      min-height: 100vh; display: flex; align-items: center;
+      padding-top: calc(var(--nav-h) + 40px);
+      position: relative; overflow: hidden;
+    }
+    .hero-grid-bg {
+      position: absolute; inset: 0; pointer-events: none;
+      background-image:
+        linear-gradient(var(--border) 1px, transparent 1px),
+        linear-gradient(90deg, var(--border) 1px, transparent 1px);
+      background-size: 60px 60px;
+      opacity: .5;
+    }
+    .hero-orb {
+      position: absolute; border-radius: 50%; filter: blur(80px); pointer-events: none;
+    }
+    .hero-orb-1 {
+      width: 520px; height: 520px; top: -100px; right: -100px;
+      background: radial-gradient(circle, rgba(108,99,255,.15), transparent 70%);
+      animation: floatOrb 8s ease-in-out infinite;
+    }
+    .hero-orb-2 {
+      width: 380px; height: 380px; bottom: -80px; left: 5%;
+      background: radial-gradient(circle, rgba(255,101,132,.12), transparent 70%);
+      animation: floatOrb 10s ease-in-out infinite reverse;
+    }
+    @keyframes floatOrb {
+      0%,100% { transform: translate(0,0) scale(1); }
+      50% { transform: translate(20px,-30px) scale(1.04); }
+    }
+    .hero-content { position: relative; z-index: 2; max-width: 780px; }
+    .hero-eyebrow {
+      display: inline-flex; align-items: center; gap: 10px;
+      font-size: .82rem; font-weight: 600; color: var(--muted);
+      letter-spacing: .08em; text-transform: uppercase; margin-bottom: 22px;
+    }
+    .hero-eyebrow::before {
+      content: ''; display: block; width: 28px; height: 1.5px; background: var(--accent);
+    }
+    .otw-badge {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: #f0fdf4; border: 1.5px solid #86efac;
+      color: #16a34a; border-radius: 99px; padding: 6px 14px;
+      font-size: .78rem; font-weight: 700; letter-spacing: .04em;
+      text-transform: uppercase;
+    }
+    .otw-dot {
+      width: 8px; height: 8px; border-radius: 50%; background: #22c55e; flex-shrink: 0;
+      box-shadow: 0 0 0 0 rgba(34,197,94,.5);
+      animation: otw-pulse 2s ease-out infinite;
+    }
+    @keyframes otw-pulse {
+      0% { box-shadow: 0 0 0 0 rgba(34,197,94,.5); }
+      70% { box-shadow: 0 0 0 7px rgba(34,197,94,0); }
+      100% { box-shadow: 0 0 0 0 rgba(34,197,94,0); }
+    }
+    .hero-h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(2.8rem, 7vw, 5.5rem);
+      font-weight: 700; line-height: 1.1; color: var(--text);
+      margin-bottom: 10px;
+    }
+    .hero-h1 em { font-style: italic; color: var(--accent); }
+    .hero-typewriter {
+      font-size: clamp(1.1rem, 2.5vw, 1.5rem);
+      font-weight: 400; color: var(--muted);
+      margin-bottom: 28px; min-height: 2em;
+    }
+    .hero-typewriter span { border-right: 2px solid var(--accent); padding-right: 3px; animation: blink .75s step-end infinite; }
+    @keyframes blink { 0%,100% { border-color: var(--accent); } 50% { border-color: transparent; } }
+    .hero-desc { font-size: 1.05rem; color: var(--muted); max-width: 580px; line-height: 1.75; margin-bottom: 40px; }
+    .hero-actions { display: flex; gap: 14px; flex-wrap: wrap; align-items: center; }
+    .hero-socials {
+      display: flex; gap: 12px; margin-top: 52px; align-items: center;
+    }
+    .hero-socials span { font-size: .78rem; font-weight: 600; color: var(--muted); letter-spacing: .06em; text-transform: uppercase; margin-right: 4px; }
+    .social-pill {
+      display: inline-flex; align-items: center; gap: 7px;
+      padding: 8px 16px; border-radius: 99px;
+      background: var(--surface); border: 1.5px solid var(--border);
+      font-size: .82rem; font-weight: 600; color: var(--text);
+      transition: var(--transition);
+    }
+    .social-pill:hover { border-color: var(--accent); color: var(--accent); transform: translateY(-2px); box-shadow: var(--shadow); }
+    .social-pill svg { width: 16px; height: 16px; flex-shrink: 0; }
+    .hero-stats {
+      display: flex; gap: 32px; flex-wrap: wrap; margin-top: 56px;
+      padding-top: 40px; border-top: 1px solid var(--border);
+    }
+    .hero-stat-num {
+      font-size: 2.2rem; font-weight: 800; color: var(--text);
+      font-variant-numeric: tabular-nums; line-height: 1;
+    }
+    .hero-stat-num span { color: var(--accent); }
+    .hero-stat-label { font-size: .8rem; font-weight: 500; color: var(--muted); margin-top: 4px; text-transform: uppercase; letter-spacing: .05em; }
+    .scroll-indicator {
+      position: absolute; bottom: 36px; left: 50%; transform: translateX(-50%);
+      display: flex; flex-direction: column; align-items: center; gap: 8px;
+      font-size: .72rem; font-weight: 600; color: var(--muted); letter-spacing: .08em; text-transform: uppercase;
+      animation: bobble 2s ease-in-out infinite;
+    }
+    .scroll-indicator svg { width: 20px; opacity: .5; }
+    @keyframes bobble { 0%,100% { transform: translateX(-50%) translateY(0); } 50% { transform: translateX(-50%) translateY(6px); } }
+
+    /* ============================================================
+       MARQUEE RIBBON
+    ============================================================ */
+    .marquee-wrap {
+      background: var(--accent); overflow: hidden; padding: 14px 0;
+      border-top: 1px solid rgba(255,255,255,.1);
+      border-bottom: 1px solid rgba(255,255,255,.1);
+    }
+    .marquee-track {
+      display: flex; gap: 0; width: max-content;
+      animation: marquee 28s linear infinite;
+    }
+    .marquee-track:hover { animation-play-state: paused; }
+    @keyframes marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+    .marquee-item {
+      display: inline-flex; align-items: center; gap: 14px;
+      white-space: nowrap; padding: 0 28px;
+      font-size: .82rem; font-weight: 600; color: rgba(255,255,255,.9);
+      letter-spacing: .06em; text-transform: uppercase;
+    }
+    .marquee-dot { width: 5px; height: 5px; border-radius: 50%; background: rgba(255,255,255,.5); }
+
+    /* ============================================================
+       ABOUT
+    ============================================================ */
+    #about { padding: 100px 0; }
+    .about-grid {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center;
+    }
+    .about-visual {
+      position: relative;
+    }
+    .about-card {
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: var(--radius); padding: 32px; box-shadow: var(--shadow);
+    }
+    .about-avatar {
+      width: 80px; height: 80px; border-radius: 50%;
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      display: flex; align-items: center; justify-content: center;
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem; font-weight: 700; color: #fff;
+      margin-bottom: 18px; flex-shrink: 0;
+    }
+    .about-card-name { font-size: 1.2rem; font-weight: 700; }
+    .about-card-role { font-size: .85rem; color: var(--accent); font-weight: 600; margin-top: 2px; }
+    .about-card-location { font-size: .82rem; color: var(--muted); margin-top: 6px; display: flex; align-items: center; gap: 5px; }
+    .about-card-tags { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 18px; }
+    .chip {
+      font-size: .75rem; font-weight: 500; padding: 5px 12px; border-radius: 99px;
+      background: var(--surface2); border: 1px solid var(--border); color: var(--muted);
+    }
+    .about-floating-badge {
+      position: absolute; right: -18px; top: -18px;
+      background: var(--accent); color: #fff; border-radius: var(--radius);
+      padding: 14px 18px; box-shadow: 0 8px 28px rgba(108,99,255,.35);
+      text-align: center;
+    }
+    .about-floating-badge strong { font-size: 1.6rem; font-weight: 800; display: block; }
+    .about-floating-badge span { font-size: .72rem; font-weight: 600; opacity: .85; letter-spacing: .04em; text-transform: uppercase; }
+    .about-tools-card {
+      position: absolute; left: -18px; bottom: -18px;
+      background: var(--surface); border: 1.5px solid var(--border); border-radius: var(--radius);
+      padding: 14px 18px; box-shadow: var(--shadow);
+    }
+    .about-tools-card p { font-size: .7rem; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; margin-bottom: 8px; }
+    .tool-icons { display: flex; gap: 6px; }
+    .tool-icon {
+      width: 32px; height: 32px; border-radius: 8px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: .72rem; font-weight: 700; color: #fff;
+    }
+    .about-text .tag { margin-bottom: 18px; }
+    .about-text .section-title { margin-bottom: 16px; }
+    .about-text p { color: var(--muted); font-size: 1rem; line-height: 1.8; margin-bottom: 14px; }
+    .about-text p:last-of-type { margin-bottom: 28px; }
+
+    /* ============================================================
+       SKILLS
+    ============================================================ */
+    #skills { padding: 100px 0; background: var(--surface2); }
+    .skills-header { text-align: center; margin-bottom: 56px; }
+    .skills-header .section-sub { margin: 10px auto 0; }
+    .skills-grid {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;
+    }
+    .skill-group {
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: var(--radius); padding: 28px;
+      box-shadow: var(--shadow); transition: var(--transition);
+    }
+    .skill-group:hover { transform: translateY(-4px); box-shadow: var(--shadow-lg); border-color: var(--accent); }
+    .skill-group-icon {
+      width: 48px; height: 48px; border-radius: 12px;
+      background: linear-gradient(135deg, var(--accent-lt), rgba(167,139,250,.18));
+      display: flex; align-items: center; justify-content: center;
+      margin-bottom: 18px;
+      box-shadow: 0 2px 12px rgba(108,99,255,.12);
+    }
+    .skill-group-icon svg { width: 24px; height: 24px; color: var(--accent); }
+    .skill-group-title {
+      font-size: 1rem; font-weight: 800; color: var(--text); margin-bottom: 16px;
+      letter-spacing: -.01em;
+    }
+    .skill-bar-item { margin-bottom: 14px; }
+    .skill-bar-item:last-child { margin-bottom: 0; }
+    .skill-bar-label { display: flex; justify-content: space-between; font-size: .8rem; font-weight: 500; color: var(--text); margin-bottom: 6px; }
+    .skill-bar-label span:last-child { color: var(--muted); }
+    .skill-bar-track {
+      height: 6px; background: var(--surface2); border-radius: 99px; overflow: hidden;
+    }
+    .skill-bar-fill {
+      height: 100%; border-radius: 99px;
+      background: linear-gradient(90deg, var(--accent), #a78bfa);
+      width: 0; transition: width 1.2s cubic-bezier(.4,0,.2,1);
+    }
+    .skill-tags { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 12px; }
+    .skill-tag {
+      font-size: .75rem; font-weight: 500; padding: 5px 11px; border-radius: 99px;
+      background: var(--accent-lt); color: var(--accent); border: 1px solid rgba(108,99,255,.2);
+    }
+
+    /* ---- Skill group accent ---- */
+    .skill-group {
+      position: relative; overflow: hidden;
+    }
+    .skill-group::before {
+      content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px;
+      background: linear-gradient(90deg, var(--accent), #a78bfa);
+      border-radius: var(--radius) var(--radius) 0 0;
+      transform: scaleX(0); transform-origin: left;
+      transition: transform .4s cubic-bezier(.4,0,.2,1);
+    }
+    .skill-group:hover::before { transform: scaleX(1); }
+    .skill-group:hover { transform: translateY(-6px); box-shadow: 0 20px 56px rgba(108,99,255,.16); border-color: rgba(108,99,255,.3); }
+
+    /* ---- Tool card grid (replaces %age bars) ---- */
+    .tool-grid {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 8px;
+    }
+    .tool-card {
+      background: var(--surface2); border: 1px solid var(--border);
+      border-radius: 12px; padding: 16px 10px 14px; text-align: center;
+      transition: var(--transition); position: relative; overflow: hidden;
+    }
+    .tool-card::after {
+      content: ''; position: absolute; inset: 0;
+      background: linear-gradient(135deg, rgba(108,99,255,.06), transparent 60%);
+      opacity: 0; transition: opacity .3s;
+    }
+    .tool-card:hover { border-color: var(--accent); transform: translateY(-3px); box-shadow: 0 8px 28px rgba(108,99,255,.18); background: var(--surface); }
+    .tool-card:hover::after { opacity: 1; }
+    .tool-card-icon {
+      width: 44px; height: 44px; border-radius: 11px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: .65rem; font-weight: 800; color: #fff; letter-spacing: .02em;
+      margin: 0 auto 10px; flex-shrink: 0;
+      box-shadow: 0 4px 12px rgba(0,0,0,.18);
+    }
+    .tool-card-icon svg { width: 18px; height: 18px; }
+    .tool-card-name { font-size: .72rem; font-weight: 700; color: var(--text); margin-bottom: 0; line-height: 1.3; }
+
+    /* ---- Project card device mockups ---- */
+    .mockup-wrap {
+      position: relative; z-index: 2; width: 90%; height: 82%;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .mock-browser {
+      width: 100%; height: 100%; background: #fff; border-radius: 8px;
+      overflow: hidden; box-shadow: 0 10px 36px rgba(0,0,0,.25);
+      display: flex; flex-direction: column;
+    }
+    .mock-bar {
+      height: 22px; background: #f0f0f0; border-bottom: 1px solid #e0e0e0;
+      display: flex; align-items: center; padding: 0 8px; gap: 4px; flex-shrink: 0;
+    }
+    .mock-dot { width: 7px; height: 7px; border-radius: 50%; flex-shrink: 0; }
+    .mock-url {
+      flex: 1; margin-left: 6px; background: #e3e3e3; height: 11px;
+      border-radius: 2px;
+    }
+    .mock-content { flex: 1; overflow: hidden; }
+    .mock-phone {
+      height: 100%; aspect-ratio: 9/16; max-height: 185px;
+      background: #1a1a2e; border-radius: 14px;
+      overflow: hidden; box-shadow: 0 10px 36px rgba(0,0,0,.35);
+      display: flex; flex-direction: column; flex-shrink: 0;
+    }
+    .mock-notch {
+      height: 14px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+    }
+    .mock-notch-inner { width: 30px; height: 6px; background: #333; border-radius: 3px; }
+    .mock-phone-screen { flex: 1; overflow: hidden; }
+
+    /* ============================================================
+       EXPERIENCE TIMELINE
+    ============================================================ */
+    #experience { padding: 100px 0; }
+    .exp-layout { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: start; }
+    .exp-header .tag { margin-bottom: 18px; }
+    .exp-header .section-title { margin-bottom: 12px; }
+    .timeline { position: relative; padding-left: 28px; margin-top: 48px; }
+    .timeline::before {
+      content: ''; position: absolute; left: 8px; top: 8px; bottom: 0;
+      width: 2px; background: var(--border);
+    }
+    .timeline-item { position: relative; padding-bottom: 40px; }
+    .timeline-item:last-child { padding-bottom: 0; }
+    .timeline-dot {
+      position: absolute; left: -24px; top: 4px;
+      width: 16px; height: 16px; border-radius: 50%;
+      background: var(--accent); border: 3px solid var(--bg);
+      box-shadow: 0 0 0 2px var(--accent);
+      transition: var(--transition);
+    }
+    .timeline-item:hover .timeline-dot { transform: scale(1.3); }
+    .timeline-date { font-size: .75rem; font-weight: 600; color: var(--accent); text-transform: uppercase; letter-spacing: .06em; margin-bottom: 6px; }
+    .timeline-role { font-size: 1rem; font-weight: 700; color: var(--text); margin-bottom: 2px; }
+    .timeline-company { font-size: .875rem; font-weight: 500; color: var(--muted); margin-bottom: 12px; }
+    .timeline-points { display: flex; flex-direction: column; gap: 6px; }
+    .timeline-points li {
+      font-size: .875rem; color: var(--muted); line-height: 1.55;
+      padding-left: 16px; position: relative;
+    }
+    .timeline-points li::before {
+      content: ''; position: absolute; left: 0; top: 8px;
+      width: 5px; height: 5px; border-radius: 50%; background: var(--accent);
+    }
+    .education-grid { display: flex; flex-direction: column; gap: 16px; }
+    .edu-card {
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: var(--radius); padding: 20px 24px; transition: var(--transition);
+    }
+    .edu-card:hover { border-color: var(--accent); box-shadow: var(--shadow); }
+    .edu-degree { font-size: .92rem; font-weight: 700; color: var(--text); }
+    .edu-school { font-size: .82rem; color: var(--muted); margin-top: 3px; }
+    .edu-year { font-size: .75rem; font-weight: 600; color: var(--accent); margin-top: 6px; }
+
+    /* ============================================================
+       PROJECTS / WORK
+    ============================================================ */
+    #work { padding: 100px 0; background: var(--surface2); }
+    .work-header { margin-bottom: 48px; display: flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap; gap: 20px; }
+    .projects-grid {
+      display: grid; grid-template-columns: repeat(12, 1fr); gap: 20px;
+    }
+    .project-card {
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: var(--radius); overflow: hidden;
+      transition: var(--transition); cursor: pointer;
+      display: flex; flex-direction: column;
+      position: relative;
+    }
+    .project-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-lg); border-color: var(--accent); }
+    .project-card.wide { grid-column: span 7; }
+    .project-card.narrow { grid-column: span 5; }
+    .project-card.full { grid-column: span 12; }
+    .project-card.third { grid-column: span 4; }
+    .project-thumb {
+      height: 220px; position: relative; overflow: hidden;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .project-thumb-bg {
+      position: absolute; inset: 0;
+      background: linear-gradient(135deg, var(--c1, #6c63ff), var(--c2, #a78bfa));
+    }
+    .project-thumb-pattern {
+      position: absolute; inset: 0; opacity: .12;
+      background-image: radial-gradient(circle, #fff 1px, transparent 1px);
+      background-size: 20px 20px;
+    }
+    .project-thumb-icon {
+      position: relative; z-index: 2;
+      font-size: 3.5rem; filter: drop-shadow(0 4px 16px rgba(0,0,0,.2));
+    }
+    .project-thumb-overlay {
+      position: absolute; inset: 0; background: rgba(0,0,0,0);
+      transition: background var(--transition);
+      display: flex; align-items: center; justify-content: center;
+      z-index: 3;
+    }
+    .project-card:hover .project-thumb-overlay { background: rgba(0,0,0,.3); }
+    .project-thumb-cta {
+      opacity: 0; transform: scale(.85);
+      transition: var(--transition);
+      background: rgba(255,255,255,.95); color: var(--text);
+      font-size: .8rem; font-weight: 700; padding: 10px 20px; border-radius: 99px;
+      display: flex; align-items: center; gap: 7px;
+    }
+    .project-card:hover .project-thumb-cta { opacity: 1; transform: scale(1); }
+    .project-body { padding: 22px; flex: 1; display: flex; flex-direction: column; }
+    .project-tags { display: flex; gap: 7px; flex-wrap: wrap; margin-bottom: 10px; }
+    .project-tag {
+      font-size: .7rem; font-weight: 600; padding: 3px 10px; border-radius: 99px;
+      background: var(--surface2); color: var(--muted); border: 1px solid var(--border);
+    }
+    .project-title { font-size: 1.05rem; font-weight: 700; color: var(--text); margin-bottom: 8px; line-height: 1.35; }
+    .project-desc { font-size: .875rem; color: var(--muted); line-height: 1.65; flex: 1; }
+    .project-footer { display: flex; align-items: center; justify-content: space-between; margin-top: 18px; padding-top: 16px; border-top: 1px solid var(--border); }
+    .project-tools { display: flex; gap: 6px; }
+    .project-tool { font-size: .7rem; font-weight: 600; color: var(--accent); background: var(--accent-lt); padding: 3px 9px; border-radius: 99px; }
+    .project-link-icon {
+      width: 32px; height: 32px; border-radius: 50%; border: 1.5px solid var(--border);
+      display: flex; align-items: center; justify-content: center;
+      transition: var(--transition); color: var(--muted);
+    }
+    .project-card:hover .project-link-icon { border-color: var(--accent); color: var(--accent); background: var(--accent-lt); }
+    .project-link-icon svg { width: 14px; height: 14px; }
+
+    /* ============================================================
+       BEHANCE STRIP
+    ============================================================ */
+    #behance-strip { padding: 80px 0; }
+    .behance-card {
+      background: linear-gradient(135deg, #1769ff 0%, #0044c7 100%);
+      border-radius: 20px; padding: 56px 64px;
+      display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 32px;
+      position: relative; overflow: hidden;
+    }
+    .behance-card::before {
+      content: ''; position: absolute; right: -80px; top: -80px;
+      width: 320px; height: 320px; border-radius: 50%;
+      background: rgba(255,255,255,.06);
+    }
+    .behance-card::after {
+      content: ''; position: absolute; right: 100px; bottom: -120px;
+      width: 240px; height: 240px; border-radius: 50%;
+      background: rgba(255,255,255,.04);
+    }
+    .behance-text { position: relative; z-index: 2; }
+    .behance-text h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(1.8rem, 4vw, 2.8rem); font-weight: 700; color: #fff; line-height: 1.2;
+      margin-bottom: 12px;
+    }
+    .behance-text p { color: rgba(255,255,255,.75); font-size: .97rem; max-width: 480px; line-height: 1.7; }
+    .behance-actions { position: relative; z-index: 2; display: flex; gap: 14px; flex-wrap: wrap; }
+    .btn-behance {
+      background: #fff; color: #1769ff;
+      display: inline-flex; align-items: center; gap: 9px;
+      padding: 14px 28px; border-radius: 99px;
+      font-size: .92rem; font-weight: 700; transition: var(--transition);
+    }
+    .btn-behance:hover { transform: translateY(-2px); box-shadow: 0 8px 28px rgba(0,0,0,.25); }
+    .btn-behance-outline {
+      background: transparent; color: #fff; border: 1.5px solid rgba(255,255,255,.4);
+      display: inline-flex; align-items: center; gap: 9px;
+      padding: 13px 26px; border-radius: 99px;
+      font-size: .92rem; font-weight: 600; transition: var(--transition);
+    }
+    .btn-behance-outline:hover { border-color: #fff; background: rgba(255,255,255,.08); transform: translateY(-2px); }
+
+    /* ============================================================
+       PROCESS
+    ============================================================ */
+    #process { padding: 100px 0; }
+    .process-header { text-align: center; margin-bottom: 56px; }
+    .process-header .section-sub { margin: 10px auto 0; }
+    .process-steps { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; }
+    .process-step {
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: var(--radius); padding: 28px 24px; text-align: center;
+      transition: var(--transition); position: relative;
+    }
+    .process-step:hover { border-color: var(--accent); transform: translateY(-4px); box-shadow: var(--shadow-lg); }
+    .process-step::after {
+      content: '→'; position: absolute; right: -12px; top: 50%; transform: translateY(-50%);
+      font-size: 1rem; color: var(--border); z-index: 2;
+    }
+    .process-step:last-child::after { display: none; }
+    .process-num { font-size: 2.5rem; font-weight: 800; color: var(--accent-lt); line-height: 1; margin-bottom: 12px; }
+    .process-step:hover .process-num { color: var(--accent); transition: var(--transition); }
+    .process-icon { width: 48px; height: 48px; border-radius: 12px; background: var(--accent-lt); display: flex; align-items: center; justify-content: center; margin: 0 auto 14px; }
+    .process-icon svg { width: 24px; height: 24px; color: var(--accent); }
+    .process-step-title { font-size: .95rem; font-weight: 700; color: var(--text); margin-bottom: 8px; }
+    .process-step-desc { font-size: .8rem; color: var(--muted); line-height: 1.6; }
+
+    /* ============================================================
+       CONTACT
+    ============================================================ */
+    #contact { padding: 100px 0; background: var(--surface2); }
+    .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: stretch; }
+    .contact-info {
+      display: flex; flex-direction: column;
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: var(--radius); padding: 40px; box-shadow: var(--shadow);
+    }
+    .contact-info .tag { margin-bottom: 18px; }
+    .contact-info .section-title { margin-bottom: 14px; }
+    .contact-info > p { color: var(--muted); font-size: .95rem; line-height: 1.7; margin-bottom: 0; }
+    .contact-links { display: flex; flex-direction: column; gap: 14px; margin-top: 28px; flex: 1; justify-content: flex-end; }
+    /* contact-info p and contact-links overridden by .contact-grid layout rules above */
+    .contact-link-item {
+      display: flex; align-items: center; gap: 16px;
+      background: var(--surface2); border: 1.5px solid var(--border);
+      border-radius: var(--radius); padding: 20px 22px;
+      transition: var(--transition); cursor: pointer;
+    }
+    .contact-link-item:hover { border-color: var(--accent); transform: translateX(4px); box-shadow: var(--shadow); }
+    .contact-link-icon {
+      width: 40px; height: 40px; border-radius: 10px; background: var(--accent-lt);
+      display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+      color: var(--accent);
+    }
+    .contact-link-icon svg { width: 18px; height: 18px; }
+    .contact-link-label { font-size: .72rem; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; }
+    .contact-link-value { font-size: .9rem; font-weight: 600; color: var(--text); margin-top: 1px; }
+    .contact-form {
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: var(--radius); padding: 36px; box-shadow: var(--shadow);
+    }
+    .contact-form h3 { font-size: 1.1rem; font-weight: 700; margin-bottom: 24px; }
+    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+    .form-group { margin-bottom: 16px; }
+    .form-group label { font-size: .8rem; font-weight: 600; color: var(--text); display: block; margin-bottom: 7px; }
+    .form-group input, .form-group textarea, .form-group select {
+      width: 100%; padding: 12px 14px; border-radius: 10px;
+      border: 1.5px solid var(--border); background: var(--bg);
+      font-family: 'Inter', sans-serif; font-size: .875rem; color: var(--text);
+      outline: none; transition: border-color .2s;
+      resize: vertical;
+    }
+    .form-group input:focus, .form-group textarea:focus, .form-group select:focus { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(108,99,255,.1); }
+    .form-group textarea { min-height: 110px; }
+
+    /* ============================================================
+       FOOTER
+    ============================================================ */
+    footer {
+      background: var(--text); color: rgba(255,255,255,.6);
+      padding: 40px 0 28px;
+    }
+    .footer-inner { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 20px; }
+    .footer-logo { font-family: 'Playfair Display', serif; font-size: 1.4rem; font-weight: 700; color: #fff; }
+    .footer-logo span { color: var(--accent); }
+    .footer-links { display: flex; gap: 20px; }
+    .footer-links a { font-size: .82rem; transition: color .2s; }
+    .footer-links a:hover { color: #fff; }
+    .footer-copy { font-size: .78rem; margin-top: 20px; text-align: center; padding-top: 20px; border-top: 1px solid rgba(255,255,255,.08); }
+
+    /* ============================================================
+       SCROLL REVEAL
+    ============================================================ */
+    .reveal { opacity: 0; transform: translateY(30px); transition: opacity .7s ease, transform .7s ease; }
+    .reveal.in-view { opacity: 1; transform: none; }
+    .reveal-delay-1 { transition-delay: .1s; }
+    .reveal-delay-2 { transition-delay: .2s; }
+    .reveal-delay-3 { transition-delay: .3s; }
+    .reveal-delay-4 { transition-delay: .4s; }
+
+    /* ============================================================
+       BACK TO TOP
+    ============================================================ */
+    #back-top {
+      position: fixed; bottom: 28px; right: 28px; z-index: 99;
+      width: 44px; height: 44px; border-radius: 50%;
+      background: var(--accent); color: #fff; border: none; cursor: pointer;
+      display: flex; align-items: center; justify-content: center;
+      box-shadow: 0 4px 20px rgba(108,99,255,.4); transition: var(--transition);
+      opacity: 0; pointer-events: none; transform: scale(.8);
+    }
+    #back-top.visible { opacity: 1; pointer-events: auto; transform: scale(1); }
+    #back-top:hover { background: #5a52e0; transform: scale(1.1); }
+    #back-top svg { width: 18px; height: 18px; }
+
+    /* ============================================================
+       RESPONSIVE  — 4 breakpoints: 1024 · 900 · 640 · 400
+    ============================================================ */
+
+    /* ── Large tablet / small laptop ── */
+    @media (max-width: 1024px) {
+      .projects-grid { grid-template-columns: repeat(12,1fr); }
+      .project-card.wide  { grid-column: span 8; }
+      .project-card.narrow{ grid-column: span 4; }
+      .project-card.third { grid-column: span 6; }
+    }
+
+    /* ── Tablet / large phone landscape ── */
+    @media (max-width: 900px) {
+      :root { --nav-h: 64px; }
+
+      /* Nav */
+      .nav-links, .nav-cta { display: none; }
+      .hamburger { display: flex; }
+
+      /* Sections */
+      #about, #skills, #experience, #work, #behance-strip,
+      #process, #contact { padding: 72px 0; }
+
+      /* Grids → single column */
+      .about-grid, .exp-layout, .contact-grid { grid-template-columns: 1fr; gap: 40px; }
+      .about-visual { display: none; }
+
+      /* All project cards full width */
+      .project-card.wide, .project-card.narrow,
+      .project-card.third { grid-column: span 12; }
+      .project-thumb { height: 220px !important; }
+
+      /* Behance */
+      .behance-card { padding: 36px 28px; flex-direction: column; }
+
+      /* Process */
+      .process-steps { grid-template-columns: repeat(3,1fr); }
+      .process-step::after { display: none; }
+
+      /* Skills */
+      .skills-grid { grid-template-columns: 1fr 1fr; }
+
+      /* Tool grids on smaller cards */
+      .tool-grid { gap: 7px; }
+
+      /* Hero */
+      .hero-h1 { font-size: clamp(2.2rem,6vw,3.8rem); }
+    }
+
+    /* ── Phone landscape / small tablet ── */
+    @media (max-width: 640px) {
+      :root { --nav-h: 60px; }
+      .container { padding: 0 18px; }
+
+      /* Hero */
+      #hero { padding-top: calc(var(--nav-h) + 28px); }
+      .hero-h1 { font-size: 2.2rem; line-height: 1.15; }
+      .hero-typewriter { font-size: 1rem; }
+      .hero-desc { font-size: .95rem; }
+      .hero-actions { flex-direction: column; gap: 10px; }
+      .hero-actions .btn { width: 100%; justify-content: center; }
+      .hero-socials { flex-wrap: wrap; gap: 8px; }
+      .hero-stats { padding-top: 28px; margin-top: 36px; gap: 16px; }
+      .hero-stat-num { font-size: 1.8rem; }
+
+      /* Sections */
+      #about, #skills, #experience, #work, #behance-strip,
+      #process, #contact { padding: 56px 0; }
+      .section-title { font-size: clamp(1.6rem,5vw,2.2rem); }
+
+      /* Skills — stack to 1 col */
+      .skills-grid { grid-template-columns: 1fr; }
+      .tool-grid[style*="repeat(4"] { grid-template-columns: repeat(4,1fr) !important; }
+      .tool-grid[style*="repeat(3"] { grid-template-columns: repeat(3,1fr) !important; }
+
+      /* Process */
+      .process-steps { grid-template-columns: repeat(2,1fr); }
+
+      /* Contact */
+      .contact-info { padding: 28px 20px; }
+      .contact-form { padding: 24px 18px; }
+      .form-row { grid-template-columns: 1fr; }
+
+      /* Behance card */
+      .behance-card { padding: 28px 20px; }
+      .behance-card::before, .behance-card::after { display: none; }
+
+      /* Experience timeline */
+      .timeline { padding-left: 20px; }
+
+      /* Footer */
+      .footer-inner { flex-direction: column; align-items: flex-start; gap: 16px; }
+      .footer-links { flex-wrap: wrap; gap: 12px; }
+
+      /* Back to top */
+      #back-top { bottom: 20px; right: 16px; }
+    }
+
+    /* ── Small phone ── */
+    @media (max-width: 400px) {
+      .hero-h1 { font-size: 1.9rem; }
+      .hero-stats { flex-direction: column; gap: 12px; }
+      .hero-stat-num { font-size: 2rem; }
+      .social-pill { font-size: .76rem; padding: 7px 12px; }
+
+      /* Nav logo */
+      .nav-logo { font-size: 1.2rem; }
+
+      /* Skills tool grids — keep compact but readable */
+      .tool-grid { gap: 6px; }
+      .tool-card { padding: 10px 5px; }
+      .tool-card-icon { width: 36px; height: 36px; border-radius: 8px; }
+      .tool-card-name { font-size: .66rem; }
+      .tool-card { padding: 12px 8px 10px; border-radius: 10px; }
+
+      /* UX Skills 4-col grid on tiny screens → 2 col */
+      .tool-grid[style*="repeat(4"] { grid-template-columns: repeat(2,1fr) !important; }
+
+      /* Project cards */
+      .project-thumb { height: 180px !important; }
+      .project-body { padding: 16px; }
+
+      /* Behance */
+      .btn-behance, .btn-behance-outline { font-size: .82rem; padding: 11px 18px; }
+
+      /* Contact */
+      .contact-link-item { padding: 12px 14px; }
+      .contact-link-value { font-size: .82rem; }
+      .contact-form { padding: 20px 14px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- CURSOR GLOW -->
+<div id="cursor-glow"></div>
+
+<!-- ===== NAV ===== -->
+<nav id="nav">
+  <div class="nav-inner">
+    <a href="#hero" class="nav-logo">palak<span>.</span></a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#process">Process</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="mailto:palak7989@gmail.com" class="btn btn-primary nav-cta" style="padding:9px 20px;font-size:.82rem;">Hire Me ↗</a>
+    <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+</nav>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobile-menu">
+  <a href="#about" onclick="toggleMenu()">About</a>
+  <a href="#skills" onclick="toggleMenu()">Skills</a>
+  <a href="#experience" onclick="toggleMenu()">Experience</a>
+  <a href="#work" onclick="toggleMenu()">Work</a>
+  <a href="#process" onclick="toggleMenu()">Process</a>
+  <a href="#contact" onclick="toggleMenu()">Contact</a>
+  <a href="mailto:palak7989@gmail.com" onclick="toggleMenu()" style="color:var(--accent)">Hire Me ↗</a>
+</div>
+
+<!-- ===== HERO ===== -->
+<section id="hero">
+  <div class="hero-grid-bg"></div>
+  <div class="hero-orb hero-orb-1"></div>
+  <div class="hero-orb hero-orb-2"></div>
+  <div class="container">
+    <div class="hero-content">
+      <p class="hero-eyebrow">
+        <span class="otw-badge" aria-label="Open to work">
+          <span class="otw-dot"></span>Open to Freelance &amp; Full-Time
+        </span>
+      </p>
+      <h1 class="hero-h1">Hi, I'm Palak<br><em>UI/UX Designer</em></h1>
+      <p class="hero-typewriter" id="typewriter"><span id="tw-text"></span></p>
+      <p class="hero-desc">I craft clean, user-centered digital experiences — from wireframes to pixel-perfect interfaces. 3+ years building products that people actually love to use.</p>
+      <div class="hero-actions">
+        <a href="#work" class="btn btn-primary">View My Work &nbsp;→</a>
+        <a href="mailto:palak7989@gmail.com" class="btn btn-ghost">Let's Talk</a>
+      </div>
+      <div class="hero-socials">
+        <span>Find me on</span>
+        <a href="https://www.linkedin.com/in/palak123" target="_blank" rel="noopener" class="social-pill">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+          LinkedIn
+        </a>
+        <a href="https://www.behance.net/palak6" target="_blank" rel="noopener" class="social-pill">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 7h-7V5h7v2zm1.726 10c-.442 1.297-2.029 3-5.101 3-3.074 0-5.564-1.729-5.564-5.675 0-3.91 2.325-5.92 5.466-5.92 3.082 0 4.964 1.782 5.375 4.426.078.506.109 1.188.095 2.14H15.97c.13 1.2.836 1.Girl9 2.101 1.9 1.296 0 1.588-.826 1.895-1.441h3.76zM15.971 15h3.975c-.069-1.147-.75-1.9-1.974-1.9-1.198 0-1.994.762-2.001 1.9zm-6.156 0H7c.04 1.033.795 1.691 1.95 1.691.69 0 1.34-.285 1.666-.78h3.031c-.645 1.921-2.455 3.089-4.737 3.089C6.148 19 4 17.044 4 14.134 4 11.228 6.044 9 9 9c3.087 0 4.886 2.11 4.886 4.892 0 .355-.042.702-.071.993V15zm-2.92-1.6H9.97c.066-.792-.516-1.612-1.52-1.612-1.127 0-1.706.858-1.555 1.612z"/></svg>
+          Behance
+        </a>
+        <a href="https://www.figma.com/design/RzHz324LjQREkgEkcZlakA/figma-Portfolio?node-id=0-1&t=tatkxSdUjv401bnn-1" target="_blank" rel="noopener" class="social-pill">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M5 5.5A3.5 3.5 0 0 1 8.5 2H12v7H8.5A3.5 3.5 0 0 1 5 5.5zM12 2h3.5a3.5 3.5 0 1 1 0 7H12V2zm-6.5 10A3.5 3.5 0 0 1 9 8.5H12V12a3.5 3.5 0 0 1-7 0zm6.5 0v3.5a3.5 3.5 0 0 0 7 0 3.5 3.5 0 0 0-3.5-3.5H12zm0 7v-3.5H8.5a3.5 3.5 0 0 0 0 7H12z"/></svg>
+          Figma
+        </a>
+      </div>
+      <div class="hero-stats">
+        <div>
+          <div class="hero-stat-num" data-target="3"><span id="stat-exp">0</span><span>+</span></div>
+          <div class="hero-stat-label">Years Experience</div>
+        </div>
+        <div>
+          <div class="hero-stat-num" data-target="7"><span id="stat-proj">0</span><span>+</span></div>
+          <div class="hero-stat-label">Projects Delivered</div>
+        </div>
+        <div>
+          <div class="hero-stat-num" data-target="300"><span id="stat-pages">0</span><span>+</span></div>
+          <div class="hero-stat-label">Pages Designed</div>
+        </div>
+        <div>
+          <div class="hero-stat-num" data-target="2"><span id="stat-companies">0</span></div>
+          <div class="hero-stat-label">Companies Worked</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="scroll-indicator">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+    Scroll
+  </div>
+</section>
+
+<!-- ===== MARQUEE ===== -->
+<div class="marquee-wrap">
+  <div class="marquee-track" id="marquee-track">
+    <!-- items duplicated in JS -->
+  </div>
+</div>
+
+<!-- ===== ABOUT ===== -->
+<section id="about">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-visual">
+        <div class="about-card">
+          <div class="about-avatar">P</div>
+          <div>
+            <div class="about-card-name">Palak</div>
+            <div class="about-card-role">UI/UX Designer</div>
+            <div class="about-card-location">
+              <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              Mohali, Punjab, India
+            </div>
+            <div class="about-card-tags">
+              <span class="chip">Figma</span>
+              <span class="chip">Adobe XD</span>
+              <span class="chip">WordPress</span>
+              <span class="chip">Prototyping</span>
+              <span class="chip">UX Research</span>
+              <span class="chip">Framer</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-floating-badge">
+          <strong>3.4<span style="font-size:1rem">yr</span></strong>
+          <span>Experience</span>
+        </div>
+        <div class="about-tools-card">
+          <p>Design Stack</p>
+          <div class="tool-icons">
+            <div class="tool-icon" style="background:#a259ff;" title="Figma">Fi</div>
+            <div class="tool-icon" style="background:#ff6060;" title="Adobe XD">XD</div>
+            <div class="tool-icon" style="background:#1769ff;" title="Behance">Be</div>
+            <div class="tool-icon" style="background:#00bfff;" title="Framer">Fr</div>
+            <div class="tool-icon" style="background:#21759b;" title="WordPress">WP</div>
+          </div>
+        </div>
+      </div>
+      <div class="about-text reveal">
+        <div class="tag">About Me</div>
+        <h2 class="section-title">Designing digital products that <em style="font-style:italic;color:var(--accent)">feel right</em></h2>
+        <p>I'm a UI/UX Designer with <strong>3 years and 4 months</strong> of experience crafting clean, user-centered interfaces for websites and mobile apps. I bridge the gap between beautiful visuals and real user needs.</p>
+        <p>Currently at Nirag Infotech LLP, I design HRMS products using Figma — working with design systems, wireframes, and modern UI patterns. I'm fluent in the full design lifecycle: research → wireframe → prototype → handoff.</p>
+        <p>I also bring front-end sensibility — HTML, CSS, Bootstrap, WordPress — so my designs are always built with implementation in mind.</p>
+        <div style="display:flex;gap:14px;flex-wrap:wrap;">
+          <a href="#work" class="btn btn-primary">See My Projects →</a>
+          <a href="mailto:palak7989@gmail.com" class="btn btn-ghost">Get in Touch</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SKILLS ===== -->
+<section id="skills">
+  <div class="container">
+    <div class="skills-header reveal">
+      <div class="tag">Expertise</div>
+      <h2 class="section-title">Skills &amp; Tools</h2>
+      <p class="section-sub">A well-rounded toolkit for designing and shipping great products.</p>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-group reveal reveal-delay-1">
+        <div class="skill-group-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+        </div>
+        <div class="skill-group-title">Design Tools</div>
+        <div class="tool-grid">
+          <div class="tool-card">
+            <div class="tool-card-icon" style="background:#a259ff;">Fi</div>
+            <div class="tool-card-name">Figma</div>
+          </div>
+          <div class="tool-card">
+            <div class="tool-card-icon" style="background:#ff61f6;">XD</div>
+            <div class="tool-card-name">Adobe XD</div>
+          </div>
+          <div class="tool-card">
+            <div class="tool-card-icon" style="background:#31a8ff;">Ps</div>
+            <div class="tool-card-name">Photoshop</div>
+          </div>
+          <div class="tool-card">
+            <div class="tool-card-icon" style="background:#ff9a00;">Ai</div>
+            <div class="tool-card-name">Illustrator</div>
+          </div>
+        </div>
+      </div>
+      <div class="skill-group reveal reveal-delay-2">
+        <div class="skill-group-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+        </div>
+        <div class="skill-group-title">UX Skills</div>
+        <div class="tool-grid" style="grid-template-columns:repeat(4,1fr);gap:8px;">
+          <div class="tool-card">
+            <div class="tool-card-icon" style="background:linear-gradient(135deg,#6c63ff,#a78bfa);">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><rect x="3" y="3" width="7" height="5" rx="1"/><rect x="14" y="3" width="7" height="5" rx="1"/><rect x="3" y="12" width="7" height="9" rx="1"/><rect x="14" y="12" width="7" height="9" rx="1"/></svg>
+            </div>
+            <div class="tool-card-name">Wire&shy;framing</div>
+          </div>
+          <div class="tool-card">
+            <div class="tool-card-icon" style="background:linear-gradient(135deg,#ff6584,#ff9fb5);">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M12 18h.01"/><path d="M8 6h8M8 10h8M8 14h4"/></svg>
+            </div>
+            <div class="tool-card-name">Proto&shy;typing</div>
+          </div>
+          <div class="tool-card">
+            <div class="tool-card-icon" style="background:linear-gradient(135deg,#f59e0b,#fbbf24);">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><circle cx="5" cy="12" r="2"/><circle cx="19" cy="5" r="2"/><circle cx="19" cy="19" r="2"/><path d="M7 12h10M17 7l-4 3M17 17l-4-3"/></svg>
+            </div>
+            <div class="tool-card-name">User Flows</div>
+          </div>
+          <div class="tool-card">
+            <div class="tool-card-icon" style="background:linear-gradient(135deg,#10b981,#34d399);">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+            </div>
+            <div class="tool-card-name">Design Systems</div>
+          </div>
+          <div class="tool-card">
+            <div class="tool-card-icon" style="background:linear-gradient(135deg,#3b82f6,#60a5fa);">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+            </div>
+            <div class="tool-card-name">UX Research</div>
+          </div>
+          <div class="tool-card">
+            <div class="tool-card-icon" style="background:linear-gradient(135deg,#8b5cf6,#c4b5fd);">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+            </div>
+            <div class="tool-card-name">Info Arch.</div>
+          </div>
+          <div class="tool-card">
+            <div class="tool-card-icon" style="background:linear-gradient(135deg,#0ea5e9,#38bdf8);">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <div class="tool-card-name">Usability Testing</div>
+          </div>
+          <div class="tool-card">
+            <div class="tool-card-icon" style="background:linear-gradient(135deg,#f43f5e,#fb7185);">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><path d="M5 12s2.545-5 7-5c4.454 0 7 5 7 5s-2.546 5-7 5c-4.455 0-7-5-7-5z"/><circle cx="12" cy="12" r="3"/></svg>
+            </div>
+            <div class="tool-card-name">Interaction Design</div>
+          </div>
+        </div>
+      </div>
+      <div class="skill-group reveal reveal-delay-3">
+        <div class="skill-group-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+        </div>
+        <div class="skill-group-title">Front-End &amp; CMS</div>
+        <div class="tool-grid">
+          <div class="tool-card">
+            <div class="tool-card-icon" style="background:linear-gradient(135deg,#e34c26,#f06529);font-size:.55rem;letter-spacing:0;">HTML</div>
+            <div class="tool-card-name">HTML &amp; CSS</div>
+          </div>
+          <div class="tool-card">
+            <div class="tool-card-icon" style="background:#21759b;">WP</div>
+            <div class="tool-card-name">WordPress</div>
+          </div>
+          <div class="tool-card">
+            <div class="tool-card-icon" style="background:#0055ff;">Fr</div>
+            <div class="tool-card-name">Framer</div>
+          </div>
+          <div class="tool-card">
+            <div class="tool-card-icon" style="background:#111;font-size:.55rem;letter-spacing:0;">SQ</div>
+            <div class="tool-card-name">Squarespace</div>
+          </div>
+        </div>
+      </div>
+      <div class="skill-group reveal reveal-delay-4">
+        <div class="skill-group-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+        </div>
+        <div class="skill-group-title">AI &amp; Workflow Tools</div>
+        <div class="tool-grid" style="grid-template-columns:repeat(3,1fr);gap:9px;">
+          <div class="tool-card">
+            <div class="tool-card-icon" style="background:#10a37f;font-size:.58rem;letter-spacing:0;">GPT</div>
+            <div class="tool-card-name">ChatGPT</div>
+          </div>
+          <div class="tool-card">
+            <div class="tool-card-icon" style="background:#cc785c;">Cl</div>
+            <div class="tool-card-name">Claude AI</div>
+          </div>
+          <div class="tool-card">
+            <div class="tool-card-icon" style="background:linear-gradient(135deg,#e963aa,#a855f7);">Lo</div>
+            <div class="tool-card-name">Lovable</div>
+          </div>
+          <div class="tool-card">
+            <div class="tool-card-icon" style="background:#1a1a1a;font-size:.58rem;letter-spacing:0;">B.io</div>
+            <div class="tool-card-name">Builder.io</div>
+          </div>
+          <div class="tool-card">
+            <div class="tool-card-icon" style="background:linear-gradient(135deg,#5865F2,#7c83f7);">St</div>
+            <div class="tool-card-name">Stitch</div>
+          </div>
+          <div class="tool-card">
+            <div class="tool-card-icon" style="background:#00c4cc;">Ca</div>
+            <div class="tool-card-name">Canva</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== EXPERIENCE ===== -->
+<section id="experience">
+  <div class="container">
+    <div class="exp-layout">
+      <div>
+        <div class="exp-header reveal">
+          <div class="tag">Career</div>
+          <h2 class="section-title">Work Experience</h2>
+          <p class="section-sub">Over 3 years across two companies, building real products.</p>
+        </div>
+        <div class="timeline reveal">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">July 2025 – April 2026</div>
+            <div class="timeline-role">UI/UX Designer</div>
+            <div class="timeline-company">Nirag Infotech LLP</div>
+            <ul class="timeline-points">
+              <li>Designed complete UI/UX for HRMS products end-to-end</li>
+              <li>Built wireframes, prototypes and design systems in Figma</li>
+              <li>Applied modern design trends and maintained component libraries</li>
+              <li>Integrated AI tools into workflow to accelerate delivery speed</li>
+            </ul>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">Nov 2022 – June 2025 · 2.5 yrs</div>
+            <div class="timeline-role">UI/UX Designer</div>
+            <div class="timeline-company">QServices Pvt. Ltd., Mohali</div>
+            <ul class="timeline-points">
+              <li>Designed web pages, graphics, and marketing materials</li>
+              <li>Worked on 300+ website pages maintaining design consistency</li>
+              <li>Collaborated with senior designers on user interfaces</li>
+              <li>Used Adobe suite and Figma across diverse project types</li>
+            </ul>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot" style="background:var(--muted);box-shadow:0 0 0 2px var(--muted);"></div>
+            <div class="timeline-date">Nov 2021 – April 2022 · Training</div>
+            <div class="timeline-role">Web Design Trainee</div>
+            <div class="timeline-company">IGEN Solutions, Pathankot</div>
+            <ul class="timeline-points">
+              <li>HTML & CSS fundamentals, responsive web design</li>
+              <li>Built mobile-friendly, structured web pages from scratch</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="exp-header reveal reveal-delay-2">
+          <div class="tag">Education</div>
+          <h2 class="section-title">Academic Background</h2>
+          <p class="section-sub">Solid technical foundation combined with years of real-world design practice.</p>
+        </div>
+        <div class="education-grid" style="margin-top:48px;">
+          <div class="edu-card reveal reveal-delay-1">
+            <div class="edu-degree">B.Sc (Information Technology)</div>
+            <div class="edu-school">Guru Nanak Dev University</div>
+            <div class="edu-year">2020</div>
+          </div>
+          <div class="edu-card reveal reveal-delay-2">
+            <div class="edu-degree">10+2 (CBSE)</div>
+            <div class="edu-school">Sri Guru Harkrishan Public School, Pathankot</div>
+            <div class="edu-year">2017</div>
+          </div>
+          <div class="edu-card reveal reveal-delay-3">
+            <div class="edu-degree">Matriculation (CBSE)</div>
+            <div class="edu-school">KLM International School, Pathankot</div>
+            <div class="edu-year">2015</div>
+          </div>
+        </div>
+        <div style="margin-top:32px;" class="reveal reveal-delay-4">
+          <div style="background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:24px;">
+            <div class="tag" style="margin-bottom:14px;">Soft Skills</div>
+            <div style="display:flex;flex-wrap:wrap;gap:8px;">
+              <span class="chip">Collaboration</span>
+              <span class="chip">Problem-Solving</span>
+              <span class="chip">Communication</span>
+              <span class="chip">Time Management</span>
+              <span class="chip">Attention to Detail</span>
+              <span class="chip">User Empathy</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== WORK / PROJECTS ===== -->
+<section id="work">
+  <div class="container">
+    <div class="work-header">
+      <div class="reveal">
+        <div class="tag">Portfolio</div>
+        <h2 class="section-title">Selected Work</h2>
+        <p class="section-sub">Real projects across HRMS, SaaS dashboards, e-commerce, and marketing.</p>
+      </div>
+      <a href="https://www.behance.net/palak6" target="_blank" rel="noopener" class="btn btn-ghost reveal">View All on Behance ↗</a>
+    </div>
+    <div class="projects-grid">
+
+      <!-- HRMS -->
+      <a href="https://www.figma.com/design/RzHz324LjQREkgEkcZlakA/figma-Portfolio?node-id=0-1&t=tatkxSdUjv401bnn-1" target="_blank" rel="noopener" class="project-card wide reveal">
+        <div class="project-thumb">
+          <div class="project-thumb-bg" style="--c1:#6c63ff;--c2:#a78bfa;"></div>
+          <div class="project-thumb-pattern"></div>
+          <div class="mockup-wrap" style="width:92%;height:88%;">
+            <div class="mock-browser">
+              <div class="mock-bar">
+                <div class="mock-dot" style="background:#ff5f57;"></div>
+                <div class="mock-dot" style="background:#ffbd2e;"></div>
+                <div class="mock-dot" style="background:#28c840;"></div>
+                <div class="mock-url"></div>
+              </div>
+              <div class="mock-content" style="display:flex;background:#f8f5ff;">
+                <div style="width:44px;background:#6c63ff;padding:8px 6px;display:flex;flex-direction:column;gap:6px;flex-shrink:0;">
+                  <div style="width:28px;height:28px;background:rgba(255,255,255,.2);border-radius:6px;margin-bottom:4px;"></div>
+                  <div style="width:28px;height:4px;background:rgba(255,255,255,.7);border-radius:2px;"></div>
+                  <div style="width:22px;height:4px;background:rgba(255,255,255,.35);border-radius:2px;"></div>
+                  <div style="width:24px;height:4px;background:rgba(255,255,255,.35);border-radius:2px;"></div>
+                  <div style="width:20px;height:4px;background:rgba(255,255,255,.35);border-radius:2px;"></div>
+                  <div style="width:26px;height:4px;background:rgba(255,255,255,.35);border-radius:2px;"></div>
+                </div>
+                <div style="flex:1;padding:8px;display:flex;flex-direction:column;gap:6px;">
+                  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:5px;">
+                    <div style="background:#fff;border-radius:5px;padding:6px;box-shadow:0 1px 4px rgba(108,99,255,.12);"><div style="width:16px;height:3px;background:#6c63ff;border-radius:2px;margin-bottom:4px;"></div><div style="width:24px;height:6px;background:#1a1a2e;border-radius:2px;"></div></div>
+                    <div style="background:#fff;border-radius:5px;padding:6px;box-shadow:0 1px 4px rgba(108,99,255,.12);"><div style="width:16px;height:3px;background:#ff6584;border-radius:2px;margin-bottom:4px;"></div><div style="width:20px;height:6px;background:#1a1a2e;border-radius:2px;"></div></div>
+                    <div style="background:#fff;border-radius:5px;padding:6px;box-shadow:0 1px 4px rgba(108,99,255,.12);"><div style="width:16px;height:3px;background:#10b981;border-radius:2px;margin-bottom:4px;"></div><div style="width:22px;height:6px;background:#1a1a2e;border-radius:2px;"></div></div>
+                  </div>
+                  <div style="background:#fff;border-radius:5px;padding:7px;box-shadow:0 1px 6px rgba(0,0,0,.06);flex:1;">
+                    <div style="display:flex;gap:4px;padding-bottom:5px;border-bottom:1px solid #f0f0f0;margin-bottom:5px;"><div style="width:40px;height:3px;background:#6c63ff;border-radius:2px;"></div><div style="width:24px;height:3px;background:#e0e0e0;border-radius:2px;margin-left:auto;"></div></div>
+                    <div style="display:flex;flex-direction:column;gap:4px;">
+                      <div style="display:flex;gap:3px;align-items:center;"><div style="width:16px;height:16px;border-radius:50%;background:#e8e4ff;flex-shrink:0;"></div><div style="flex:1;height:3px;background:#e8e4ff;border-radius:2px;"></div><div style="width:20px;height:3px;background:#e8e4ff;border-radius:2px;"></div><div style="width:28px;height:9px;background:#10b981;border-radius:3px;margin-left:4px;"></div></div>
+                      <div style="display:flex;gap:3px;align-items:center;"><div style="width:16px;height:16px;border-radius:50%;background:#fce4ec;flex-shrink:0;"></div><div style="flex:1;height:3px;background:#f0f0f0;border-radius:2px;"></div><div style="width:20px;height:3px;background:#f0f0f0;border-radius:2px;"></div><div style="width:28px;height:9px;background:#ff6584;border-radius:3px;margin-left:4px;"></div></div>
+                      <div style="display:flex;gap:3px;align-items:center;"><div style="width:16px;height:16px;border-radius:50%;background:#e8f5e9;flex-shrink:0;"></div><div style="flex:1;height:3px;background:#f0f0f0;border-radius:2px;"></div><div style="width:20px;height:3px;background:#f0f0f0;border-radius:2px;"></div><div style="width:28px;height:9px;background:#6c63ff;border-radius:3px;margin-left:4px;"></div></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-thumb-overlay">
+            <div class="project-thumb-cta">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              View in Figma
+            </div>
+          </div>
+        </div>
+        <div class="project-body">
+          <div class="project-tags"><span class="project-tag">HRMS</span><span class="project-tag">Product Design</span></div>
+          <div class="project-title">HRMS Product — Employee Management System</div>
+          <div class="project-desc">Designed end-to-end UI/UX for an HRMS product including employee workflows, leave management, and onboarding flows. Built with a scalable design system in Figma.</div>
+          <div class="project-footer">
+            <div class="project-tools"><span class="project-tool">Figma</span><span class="project-tool">Design System</span></div>
+            <div class="project-link-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M7 7h10v10"/></svg></div>
+          </div>
+        </div>
+      </a>
+
+      <!-- Attendance App -->
+      <a href="https://www.figma.com/design/RzHz324LjQREkgEkcZlakA/figma-Portfolio?node-id=66-54858&t=tatkxSdUjv401bnn-1" target="_blank" rel="noopener" class="project-card narrow reveal reveal-delay-1">
+        <div class="project-thumb" style="height:190px;">
+          <div class="project-thumb-bg" style="--c1:#7c3aed;--c2:#a78bfa;"></div>
+          <div class="project-thumb-pattern"></div>
+          <div class="mockup-wrap" style="width:auto;height:90%;gap:10px;">
+            <div class="mock-phone" style="max-height:168px;">
+              <div class="mock-notch"><div class="mock-notch-inner"></div></div>
+              <div class="mock-phone-screen" style="background:#f8f5ff;padding:6px;">
+                <div style="background:#6c63ff;border-radius:6px 6px 0 0;padding:6px;text-align:center;margin:-6px -6px 6px;">
+                  <div style="width:32px;height:32px;background:rgba(255,255,255,.2);border-radius:50%;margin:0 auto 4px;display:flex;align-items:center;justify-content:center;"><div style="width:14px;height:14px;background:#fff;border-radius:50%;"></div></div>
+                  <div style="width:40px;height:3px;background:rgba(255,255,255,.8);border-radius:2px;margin:0 auto 2px;"></div>
+                  <div style="width:28px;height:2px;background:rgba(255,255,255,.4);border-radius:2px;margin:0 auto;"></div>
+                </div>
+                <div style="background:#fff;border-radius:6px;padding:6px;margin-bottom:5px;box-shadow:0 1px 4px rgba(108,99,255,.1);">
+                  <div style="width:36px;height:3px;background:#6c63ff;border-radius:2px;margin-bottom:3px;"></div>
+                  <div style="width:50px;height:3px;background:#e0e0e0;border-radius:2px;"></div>
+                </div>
+                <div style="display:grid;grid-template-columns:1fr 1fr;gap:4px;">
+                  <div style="background:#fff;border-radius:5px;padding:5px;box-shadow:0 1px 4px rgba(108,99,255,.08);"><div style="width:14px;height:3px;background:#10b981;border-radius:2px;margin-bottom:3px;"></div><div style="width:20px;height:5px;background:#1a1a2e;border-radius:2px;"></div></div>
+                  <div style="background:#fff;border-radius:5px;padding:5px;box-shadow:0 1px 4px rgba(108,99,255,.08);"><div style="width:14px;height:3px;background:#ff6584;border-radius:2px;margin-bottom:3px;"></div><div style="width:20px;height:5px;background:#1a1a2e;border-radius:2px;"></div></div>
+                </div>
+              </div>
+            </div>
+            <div class="mock-phone" style="max-height:148px;margin-top:16px;opacity:.8;">
+              <div class="mock-notch"><div class="mock-notch-inner"></div></div>
+              <div class="mock-phone-screen" style="background:#1a1a2e;padding:6px;">
+                <div style="width:32px;height:32px;background:rgba(108,99,255,.3);border-radius:50%;margin:4px auto;display:flex;align-items:center;justify-content:center;"><div style="width:18px;height:18px;background:#6c63ff;border-radius:50%;"></div></div>
+                <div style="width:48px;height:3px;background:rgba(255,255,255,.6);border-radius:2px;margin:5px auto 3px;"></div>
+                <div style="width:36px;height:2px;background:rgba(255,255,255,.3);border-radius:2px;margin:0 auto 8px;"></div>
+                <div style="background:#6c63ff;border-radius:5px;padding:6px;text-align:center;"><div style="width:32px;height:4px;background:#fff;border-radius:2px;margin:0 auto;"></div></div>
+              </div>
+            </div>
+          </div>
+          <div class="project-thumb-overlay">
+            <div class="project-thumb-cta">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              View in Figma
+            </div>
+          </div>
+        </div>
+        <div class="project-body">
+          <div class="project-tags"><span class="project-tag">Mobile App</span><span class="project-tag">UX Research</span></div>
+          <div class="project-title">Entrypass — Attendance App</div>
+          <div class="project-desc">Redesigned the check-in/check-out flow to be faster and more intuitive. Conducted UX research and streamlined user flows for accessibility.</div>
+          <div class="project-footer">
+            <div class="project-tools"><span class="project-tool">Figma</span></div>
+            <div class="project-link-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M7 7h10v10"/></svg></div>
+          </div>
+        </div>
+      </a>
+
+      <!-- Photography Landing -->
+      <a href="https://www.behance.net/palak6" target="_blank" rel="noopener" class="project-card third reveal">
+        <div class="project-thumb" style="height:180px;">
+          <div class="project-thumb-bg" style="--c1:#92400e;--c2:#d97706;"></div>
+          <div class="project-thumb-pattern"></div>
+          <div class="mockup-wrap" style="width:94%;height:88%;">
+            <div class="mock-browser">
+              <div class="mock-bar">
+                <div class="mock-dot" style="background:#ff5f57;"></div>
+                <div class="mock-dot" style="background:#ffbd2e;"></div>
+                <div class="mock-dot" style="background:#28c840;"></div>
+                <div class="mock-url"></div>
+              </div>
+              <div class="mock-content" style="background:#111;position:relative;overflow:hidden;">
+                <div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.1) 0%,rgba(0,0,0,.6) 100%);"></div>
+                <div style="position:absolute;inset:0;background:radial-gradient(ellipse at 60% 40%,rgba(217,119,6,.4),transparent 70%);"></div>
+                <div style="position:absolute;top:8px;left:0;right:0;display:flex;justify-content:space-between;padding:0 8px;z-index:2;">
+                  <div style="width:24px;height:5px;background:rgba(255,255,255,.9);border-radius:2px;"></div>
+                  <div style="display:flex;gap:4px;"><div style="width:12px;height:5px;background:rgba(255,255,255,.5);border-radius:2px;"></div><div style="width:12px;height:5px;background:rgba(255,255,255,.5);border-radius:2px;"></div><div style="width:12px;height:5px;background:rgba(255,255,255,.5);border-radius:2px;"></div></div>
+                </div>
+                <div style="position:absolute;bottom:14px;left:8px;right:8px;z-index:2;">
+                  <div style="width:60%;height:7px;background:rgba(255,255,255,.9);border-radius:2px;margin-bottom:5px;"></div>
+                  <div style="width:40%;height:4px;background:rgba(255,255,255,.5);border-radius:2px;margin-bottom:8px;"></div>
+                  <div style="width:36px;height:11px;background:#f59e0b;border-radius:3px;"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-thumb-overlay">
+            <div class="project-thumb-cta">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              View on Behance
+            </div>
+          </div>
+        </div>
+        <div class="project-body">
+          <div class="project-tags"><span class="project-tag">Landing Page</span><span class="project-tag">Animation</span></div>
+          <div class="project-title">Photography Industry — Animated Landing Page</div>
+          <div class="project-desc">Engaging animated landing page with storytelling-driven design and smooth interactions for brand showcase.</div>
+          <div class="project-footer">
+            <div class="project-tools"><span class="project-tool">Figma</span></div>
+            <div class="project-link-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M7 7h10v10"/></svg></div>
+          </div>
+        </div>
+      </a>
+
+      <!-- Sangin -->
+      <a href="https://www.behance.net/palak6" target="_blank" rel="noopener" class="project-card third reveal reveal-delay-1">
+        <div class="project-thumb" style="height:180px;">
+          <div class="project-thumb-bg" style="--c1:#065f46;--c2:#10b981;"></div>
+          <div class="project-thumb-pattern"></div>
+          <div class="mockup-wrap" style="width:94%;height:88%;">
+            <div class="mock-browser">
+              <div class="mock-bar">
+                <div class="mock-dot" style="background:#ff5f57;"></div>
+                <div class="mock-dot" style="background:#ffbd2e;"></div>
+                <div class="mock-dot" style="background:#28c840;"></div>
+                <div class="mock-url"></div>
+              </div>
+              <div class="mock-content" style="display:flex;gap:0;background:#f9fafb;">
+                <div style="width:42%;background:#fff;padding:6px;border-right:1px solid #f0f0f0;">
+                  <div style="width:100%;height:60px;background:linear-gradient(135deg,#d1fae5,#a7f3d0);border-radius:4px;margin-bottom:5px;display:flex;align-items:center;justify-content:center;">
+                    <div style="width:28px;height:28px;background:#10b981;border-radius:4px;"></div>
+                  </div>
+                  <div style="width:80%;height:3px;background:#1a1a2e;border-radius:2px;margin-bottom:3px;"></div>
+                  <div style="width:50%;height:3px;background:#e0e0e0;border-radius:2px;margin-bottom:5px;"></div>
+                  <div style="width:44px;height:10px;background:#10b981;border-radius:3px;"></div>
+                </div>
+                <div style="flex:1;padding:6px;display:flex;flex-direction:column;gap:4px;">
+                  <div style="height:3px;background:#e0e0e0;border-radius:2px;width:70%;"></div>
+                  <div style="height:3px;background:#e0e0e0;border-radius:2px;width:90%;"></div>
+                  <div style="height:3px;background:#e0e0e0;border-radius:2px;width:60%;"></div>
+                  <div style="height:8px;background:#10b981;border-radius:3px;width:60%;margin-top:4px;"></div>
+                  <div style="height:8px;background:#f0f0f0;border-radius:3px;width:60%;"></div>
+                  <div style="margin-top:auto;padding-top:4px;border-top:1px solid #f0f0f0;"><div style="width:36px;height:10px;background:#10b981;border-radius:3px;"></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-thumb-overlay">
+            <div class="project-thumb-cta">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              View on Behance
+            </div>
+          </div>
+        </div>
+        <div class="project-body">
+          <div class="project-tags"><span class="project-tag">E-Commerce</span><span class="project-tag">Redesign</span></div>
+          <div class="project-title">Sangin — Product Page Redesign</div>
+          <div class="project-desc">Conversion-focused product page redesign with improved visual hierarchy, clean layouts, and modern presentation.</div>
+          <div class="project-footer">
+            <div class="project-tools"><span class="project-tool">Figma</span></div>
+            <div class="project-link-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M7 7h10v10"/></svg></div>
+          </div>
+        </div>
+      </a>
+
+      <!-- Nuworkz -->
+      <a href="https://www.behance.net/palak6" target="_blank" rel="noopener" class="project-card third reveal reveal-delay-2">
+        <div class="project-thumb" style="height:180px;">
+          <div class="project-thumb-bg" style="--c1:#1e3a5f;--c2:#3b82f6;"></div>
+          <div class="project-thumb-pattern"></div>
+          <div class="mockup-wrap" style="width:94%;height:88%;">
+            <div class="mock-browser">
+              <div class="mock-bar">
+                <div class="mock-dot" style="background:#ff5f57;"></div>
+                <div class="mock-dot" style="background:#ffbd2e;"></div>
+                <div class="mock-dot" style="background:#28c840;"></div>
+                <div class="mock-url"></div>
+              </div>
+              <div class="mock-content" style="background:#0f1724;padding:6px;display:flex;flex-direction:column;gap:5px;">
+                <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:4px;">
+                  <div style="background:#1e2d3d;border-radius:4px;padding:5px;"><div style="width:12px;height:2px;background:#3b82f6;border-radius:1px;margin-bottom:3px;"></div><div style="width:20px;height:5px;background:#fff;border-radius:1px;opacity:.8;"></div></div>
+                  <div style="background:#1e2d3d;border-radius:4px;padding:5px;"><div style="width:12px;height:2px;background:#10b981;border-radius:1px;margin-bottom:3px;"></div><div style="width:18px;height:5px;background:#fff;border-radius:1px;opacity:.8;"></div></div>
+                  <div style="background:#1e2d3d;border-radius:4px;padding:5px;"><div style="width:12px;height:2px;background:#a78bfa;border-radius:1px;margin-bottom:3px;"></div><div style="width:22px;height:5px;background:#fff;border-radius:1px;opacity:.8;"></div></div>
+                </div>
+                <div style="background:#1e2d3d;border-radius:4px;padding:5px;flex:1;">
+                  <div style="display:flex;align-items:flex-end;gap:3px;height:40px;padding-top:4px;">
+                    <div style="flex:1;background:#3b82f6;border-radius:2px 2px 0 0;height:60%;"></div>
+                    <div style="flex:1;background:#3b82f6;border-radius:2px 2px 0 0;height:80%;"></div>
+                    <div style="flex:1;background:#60a5fa;border-radius:2px 2px 0 0;height:50%;"></div>
+                    <div style="flex:1;background:#3b82f6;border-radius:2px 2px 0 0;height:90%;"></div>
+                    <div style="flex:1;background:#60a5fa;border-radius:2px 2px 0 0;height:70%;"></div>
+                    <div style="flex:1;background:#3b82f6;border-radius:2px 2px 0 0;height:55%;"></div>
+                    <div style="flex:1;background:#93c5fd;border-radius:2px 2px 0 0;height:75%;"></div>
+                  </div>
+                  <div style="height:1px;background:rgba(255,255,255,.1);margin-top:2px;"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-thumb-overlay">
+            <div class="project-thumb-cta">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              View on Behance
+            </div>
+          </div>
+        </div>
+        <div class="project-body">
+          <div class="project-tags"><span class="project-tag">Dashboard</span><span class="project-tag">Data Viz</span></div>
+          <div class="project-title">Nuworkz — Interactive Dashboard UI</div>
+          <div class="project-desc">Designed interactive dashboards focused on data visualization and usability for efficient information access.</div>
+          <div class="project-footer">
+            <div class="project-tools"><span class="project-tool">Figma</span></div>
+            <div class="project-link-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M7 7h10v10"/></svg></div>
+          </div>
+        </div>
+      </a>
+
+      <!-- QServices -->
+      <a href="https://www.behance.net/palak6" target="_blank" rel="noopener" class="project-card narrow reveal reveal-delay-1" style="grid-column:span 5;">
+        <div class="project-thumb" style="height:190px;">
+          <div class="project-thumb-bg" style="--c1:#4c1d95;--c2:#8b5cf6;"></div>
+          <div class="project-thumb-pattern"></div>
+          <div class="mockup-wrap" style="width:92%;height:88%;">
+            <div class="mock-browser">
+              <div class="mock-bar">
+                <div class="mock-dot" style="background:#ff5f57;"></div>
+                <div class="mock-dot" style="background:#ffbd2e;"></div>
+                <div class="mock-dot" style="background:#28c840;"></div>
+                <div class="mock-url"></div>
+              </div>
+              <div class="mock-content" style="background:#fff;display:flex;flex-direction:column;">
+                <div style="background:#7c3aed;padding:5px 8px;display:flex;align-items:center;justify-content:space-between;flex-shrink:0;">
+                  <div style="width:32px;height:5px;background:#fff;border-radius:2px;opacity:.9;"></div>
+                  <div style="display:flex;gap:5px;">
+                    <div style="width:16px;height:4px;background:rgba(255,255,255,.6);border-radius:2px;"></div>
+                    <div style="width:16px;height:4px;background:rgba(255,255,255,.6);border-radius:2px;"></div>
+                    <div style="width:16px;height:4px;background:rgba(255,255,255,.6);border-radius:2px;"></div>
+                  </div>
+                </div>
+                <div style="background:linear-gradient(135deg,#7c3aed,#a78bfa);padding:10px 8px;flex-shrink:0;">
+                  <div style="width:70%;height:5px;background:#fff;border-radius:2px;margin-bottom:4px;opacity:.9;"></div>
+                  <div style="width:50%;height:3px;background:rgba(255,255,255,.6);border-radius:2px;margin-bottom:7px;"></div>
+                  <div style="width:40px;height:10px;background:#fff;border-radius:3px;"></div>
+                </div>
+                <div style="flex:1;padding:6px;display:grid;grid-template-columns:1fr 1fr;gap:4px;">
+                  <div style="background:#f3f0ff;border-radius:4px;padding:5px;"><div style="width:100%;height:20px;background:linear-gradient(135deg,#ede9fe,#ddd6fe);border-radius:3px;margin-bottom:3px;"></div><div style="width:70%;height:2px;background:#e0e0e0;border-radius:1px;"></div></div>
+                  <div style="background:#f3f0ff;border-radius:4px;padding:5px;"><div style="width:100%;height:20px;background:linear-gradient(135deg,#ede9fe,#ddd6fe);border-radius:3px;margin-bottom:3px;"></div><div style="width:60%;height:2px;background:#e0e0e0;border-radius:1px;"></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-thumb-overlay">
+            <div class="project-thumb-cta">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              View on Behance
+            </div>
+          </div>
+        </div>
+        <div class="project-body">
+          <div class="project-tags"><span class="project-tag">WordPress</span><span class="project-tag">300+ Pages</span></div>
+          <div class="project-title">QServices — Company Website</div>
+          <div class="project-desc">Designed and developed 300+ website pages using WordPress Elementor. Blogs, landing pages, service pages and case studies — all pixel-perfect.</div>
+          <div class="project-footer">
+            <div class="project-tools"><span class="project-tool">WordPress</span><span class="project-tool">Elementor</span></div>
+            <div class="project-link-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M7 7h10v10"/></svg></div>
+          </div>
+        </div>
+      </a>
+
+      <!-- Data Scrapper -->
+      <a href="https://www.behance.net/palak6" target="_blank" rel="noopener" class="project-card wide reveal" style="grid-column:span 7;">
+        <div class="project-thumb" style="height:190px;">
+          <div class="project-thumb-bg" style="--c1:#881337;--c2:#f43f5e;"></div>
+          <div class="project-thumb-pattern"></div>
+          <div class="mockup-wrap" style="width:92%;height:90%;gap:8px;">
+            <!-- Design side -->
+            <div style="flex:1;height:100%;background:#fff;border-radius:8px;overflow:hidden;box-shadow:0 8px 28px rgba(0,0,0,.25);display:flex;flex-direction:column;">
+              <div style="height:20px;background:#f5f5f5;border-bottom:1px solid #e0e0e0;display:flex;align-items:center;padding:0 6px;gap:3px;flex-shrink:0;">
+                <div style="width:6px;height:6px;border-radius:50%;background:#ff5f57;"></div>
+                <div style="width:6px;height:6px;border-radius:50%;background:#ffbd2e;"></div>
+                <div style="width:6px;height:6px;border-radius:50%;background:#28c840;"></div>
+                <div style="width:30px;height:8px;background:#e3e3e3;border-radius:2px;margin-left:4px;"></div>
+              </div>
+              <div style="flex:1;background:#fff8f0;padding:6px;display:flex;flex-direction:column;gap:4px;">
+                <div style="background:linear-gradient(90deg,#f43f5e,#fb7185);height:18px;border-radius:3px;display:flex;align-items:center;padding:0 6px;"><div style="width:40px;height:3px;background:rgba(255,255,255,.8);border-radius:2px;"></div><div style="width:20px;height:6px;background:rgba(255,255,255,.2);border-radius:2px;margin-left:auto;"></div></div>
+                <div style="flex:1;display:grid;grid-template-columns:1fr 1fr;gap:4px;">
+                  <div style="background:#fff;border-radius:4px;padding:4px;box-shadow:0 1px 4px rgba(0,0,0,.06);"><div style="width:100%;height:24px;background:#ffe4e8;border-radius:3px;margin-bottom:3px;"></div><div style="width:70%;height:2px;background:#e0e0e0;border-radius:1px;"></div></div>
+                  <div style="background:#fff;border-radius:4px;padding:4px;box-shadow:0 1px 4px rgba(0,0,0,.06);"><div style="width:100%;height:24px;background:#ffe4e8;border-radius:3px;margin-bottom:3px;"></div><div style="width:60%;height:2px;background:#e0e0e0;border-radius:1px;"></div></div>
+                </div>
+              </div>
+            </div>
+            <!-- Code side -->
+            <div style="flex:1;height:100%;background:#1e1e2e;border-radius:8px;overflow:hidden;box-shadow:0 8px 28px rgba(0,0,0,.3);display:flex;flex-direction:column;">
+              <div style="height:20px;background:#181824;border-bottom:1px solid #2a2a3d;display:flex;align-items:center;padding:0 6px;gap:6px;flex-shrink:0;">
+                <div style="width:30px;height:6px;background:#f43f5e;border-radius:2px;opacity:.7;"></div>
+                <div style="width:24px;height:6px;background:#333;border-radius:2px;"></div>
+              </div>
+              <div style="flex:1;padding:6px;display:flex;flex-direction:column;gap:3px;">
+                <div style="display:flex;gap:4px;"><div style="width:20px;height:3px;background:#f43f5e;border-radius:1px;opacity:.8;"></div><div style="width:36px;height:3px;background:#c792ea;border-radius:1px;opacity:.8;"></div></div>
+                <div style="display:flex;gap:4px;padding-left:10px;"><div style="width:16px;height:3px;background:#82aaff;border-radius:1px;opacity:.8;"></div><div style="width:28px;height:3px;background:#c3e88d;border-radius:1px;opacity:.8;"></div><div style="width:8px;height:3px;background:#f07178;border-radius:1px;opacity:.8;"></div></div>
+                <div style="display:flex;gap:4px;padding-left:10px;"><div style="width:24px;height:3px;background:#ffcb6b;border-radius:1px;opacity:.8;"></div><div style="width:16px;height:3px;background:#89ddff;border-radius:1px;opacity:.8;"></div></div>
+                <div style="display:flex;gap:4px;"><div style="width:20px;height:3px;background:#f43f5e;border-radius:1px;opacity:.8;"></div></div>
+                <div style="display:flex;gap:4px;padding-left:10px;"><div style="width:30px;height:3px;background:#c792ea;border-radius:1px;opacity:.8;"></div><div style="width:20px;height:3px;background:#82aaff;border-radius:1px;opacity:.8;"></div></div>
+                <div style="display:flex;gap:4px;padding-left:10px;"><div style="width:18px;height:3px;background:#c3e88d;border-radius:1px;opacity:.8;"></div><div style="width:32px;height:3px;background:#f07178;border-radius:1px;opacity:.8;"></div></div>
+                <div style="display:flex;gap:4px;"><div style="width:12px;height:3px;background:#f43f5e;border-radius:1px;opacity:.8;"></div></div>
+              </div>
+            </div>
+          </div>
+          <div class="project-thumb-overlay">
+            <div class="project-thumb-cta">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              View on Behance
+            </div>
+          </div>
+        </div>
+        <div class="project-body">
+          <div class="project-tags"><span class="project-tag">Front-End</span><span class="project-tag">Figma → Code</span></div>
+          <div class="project-title">Data Scrapper — UI/UX &amp; Front-End</div>
+          <div class="project-desc">Designed the UI in Figma and hand-coded it into responsive HTML/CSS. Demonstrated seamless design-to-development translation while maintaining visual consistency.</div>
+          <div class="project-footer">
+            <div class="project-tools"><span class="project-tool">Figma</span><span class="project-tool">HTML/CSS</span></div>
+            <div class="project-link-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M7 7h10v10"/></svg></div>
+          </div>
+        </div>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== BEHANCE STRIP ===== -->
+
+<!-- ===== BEHANCE STRIP ===== -->
+<section id="behance-strip">
+  <div class="container">
+    <div class="behance-card reveal">
+      <div class="behance-text">
+        <h2>See the full picture on Behance</h2>
+        <p>Case studies, process walkthroughs, and more projects — all with detailed UX rationale and design decisions explained.</p>
+      </div>
+      <div class="behance-actions">
+        <a href="https://www.behance.net/palak6" target="_blank" rel="noopener" class="btn-behance">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M7.5 0H3v19H9c3 0 6-1 6-5.5 0-2-1-3.5-3-4.5 1.5-.75 2-2.5 2-4C14 2 11 0 7.5 0zM6 8h1c1 0 2-.5 2-1.5S8 5 7 5H6v3zm0 8H7c2 0 3-.5 3-2s-1-2-3-2H6v4zm8-1h7V5h-7v2zm1.7 2c-3.074 0-5.564-1.729-5.564-5.675 0-3.91 2.325-5.92 5.466-5.92 3.082 0 4.964 1.782 5.375 4.426.078.506.109 1.188.095 2.14H15.97c.13 1.2.836 1.9 2.101 1.9 1.296 0 1.588-.826 1.895-1.441h3.76c-.442 1.297-2.029 3-5.101 3z"/></svg>
+          View Behance Profile
+        </a>
+        <a href="mailto:palak7989@gmail.com" class="btn-behance-outline">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          Get In Touch
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PROCESS ===== -->
+<section id="process">
+  <div class="container">
+    <div class="process-header reveal">
+      <div class="tag">My Approach</div>
+      <h2 class="section-title">Design Process</h2>
+      <p class="section-sub">A research-first, iterative process that puts users at the centre of every decision.</p>
+    </div>
+    <div class="process-steps">
+      <div class="process-step reveal">
+        <div class="process-num">01</div>
+        <div class="process-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+        </div>
+        <div class="process-step-title">Discover</div>
+        <div class="process-step-desc">User interviews, competitive analysis, and stakeholder alignment to define the real problem.</div>
+      </div>
+      <div class="process-step reveal reveal-delay-1">
+        <div class="process-num">02</div>
+        <div class="process-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+        </div>
+        <div class="process-step-title">Define</div>
+        <div class="process-step-desc">Synthesise findings into personas, journey maps, and a clear problem statement.</div>
+      </div>
+      <div class="process-step reveal reveal-delay-2">
+        <div class="process-num">03</div>
+        <div class="process-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="5" rx="1"/><rect x="14" y="3" width="7" height="5" rx="1"/><rect x="3" y="12" width="7" height="9" rx="1"/><rect x="14" y="12" width="7" height="9" rx="1"/></svg>
+        </div>
+        <div class="process-step-title">Ideate</div>
+        <div class="process-step-desc">Rapid sketching, wireframes, and information architecture to explore solution space.</div>
+      </div>
+      <div class="process-step reveal reveal-delay-3">
+        <div class="process-num">04</div>
+        <div class="process-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M12 18h.01"/><path d="M8 6h8M8 10h8M8 14h4"/></svg>
+        </div>
+        <div class="process-step-title">Design</div>
+        <div class="process-step-desc">High-fidelity UI in Figma with a component-based design system for consistency and scale.</div>
+      </div>
+      <div class="process-step reveal reveal-delay-4">
+        <div class="process-num">05</div>
+        <div class="process-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+        </div>
+        <div class="process-step-title">Test</div>
+        <div class="process-step-desc">Usability sessions, heuristic reviews, and iterating until the experience feels effortless.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section id="contact">
+  <div class="container">
+    <div class="contact-grid">
+      <div class="contact-info reveal">
+        <div class="tag">Get In Touch</div>
+        <h2 class="section-title">Let&#39;s build something great together</h2>
+        <p>Open to full-time roles, freelance projects, and collaborations. I respond within 24 hours.</p>
+        <div class="contact-links">
+          <a href="mailto:palak7989@gmail.com" class="contact-link-item">
+            <div class="contact-link-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </div>
+            <div>
+              <div class="contact-link-label">Email</div>
+              <div class="contact-link-value">palak7989@gmail.com</div>
+            </div>
+          </a>
+          <a href="tel:+917814604551" class="contact-link-item">
+            <div class="contact-link-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.5 2 2 0 0 1 3.6 1.32h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9a16 16 0 0 0 6 6l1.27-.95a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            </div>
+            <div>
+              <div class="contact-link-label">Phone</div>
+              <div class="contact-link-value">+91 78146 04551</div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="contact-form reveal reveal-delay-2">
+        <h3>Send a Message</h3>
+        <div class="form-row">
+          <div class="form-group"><label for="f-name">Full Name *</label><input id="f-name" name="name" type="text" placeholder="Your name" /></div>
+          <div class="form-group"><label for="f-email">Email *</label><input id="f-email" name="email" type="email" placeholder="your@email.com" /></div>
+        </div>
+        <div class="form-group"><label for="f-subject">Subject</label>
+          <select id="f-subject" name="subject">
+            <option>Full-time opportunity</option>
+            <option>Freelance project</option>
+            <option>Collaboration</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="form-group"><label for="f-msg">Message *</label><textarea id="f-msg" name="message" placeholder="Tell me about your project..."></textarea></div>
+        <button id="contact-btn" class="btn btn-primary" style="width:100%;justify-content:center;min-height:52px;font-size:.95rem;" onclick="handleFormSubmit(event)">
+          Send Message &nbsp;&rarr;
+        </button>
+        <p id="form-status" style="font-size:.78rem;text-align:center;margin-top:10px;min-height:18px;color:var(--muted);">I typically reply within 24 hours</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-logo">palak<span>.</span></div>
+      <div class="footer-links">
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+        <a href="https://www.behance.net/palak6" target="_blank" rel="noopener">Behance</a>
+        <a href="https://www.linkedin.com/in/palak123" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:palak7989@gmail.com">Email</a>
+      </div>
+    </div>
+    <div class="footer-copy">&copy; 2026 Palak. UI/UX Designer &middot; Mohali, Punjab &middot; Open to Freelance &amp; Full-Time</div>
+  </div>
+</footer>
+
+<!-- BACK TO TOP -->
+<button id="back-top" onclick="window.scrollTo({top:0,behavior:'smooth'})">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 15l-6-6-6 6"/></svg>
+</button>
+
+<!-- ===== SCRIPTS ===== -->
+<script>
+/* Cursor glow */
+const glow = document.getElementById('cursor-glow');
+document.addEventListener('mousemove', e => {
+  glow.style.left = e.clientX + 'px';
+  glow.style.top  = e.clientY + 'px';
+});
+
+/* Nav scroll */
+const nav = document.getElementById('nav');
+window.addEventListener('scroll', () => {
+  nav.classList.toggle('scrolled', window.scrollY > 40);
+  document.getElementById('back-top').classList.toggle('visible', window.scrollY > 400);
+  updateActiveNav();
+});
+
+function updateActiveNav() {
+  const sections = ['hero','about','skills','experience','work','process','contact'];
+  const links = document.querySelectorAll('.nav-links a');
+  let current = 'hero';
+  sections.forEach(id => {
+    const el = document.getElementById(id);
+    if (el && el.getBoundingClientRect().top < 120) current = id;
+  });
+  links.forEach(l => {
+    l.classList.toggle('active', l.getAttribute('href') === '#' + current);
+  });
+}
+
+/* Hamburger menu */
+function toggleMenu() {
+  const menu = document.getElementById('mobile-menu');
+  const ham  = document.getElementById('hamburger');
+  menu.classList.toggle('open');
+  ham.classList.toggle('open');
+}
+
+/* Typewriter */
+const phrases = [
+  'Crafting intuitive digital experiences.',
+  'Turning user research into great UI.',
+  'Building design systems that scale.',
+  'Open to freelance & full-time roles.',
+];
+let pi = 0, ci = 0, deleting = false;
+const tw = document.getElementById('tw-text');
+function typeWriter() {
+  const phrase = phrases[pi];
+  if (!deleting) {
+    tw.textContent = phrase.slice(0, ++ci);
+    if (ci === phrase.length) { deleting = true; setTimeout(typeWriter, 1800); return; }
+  } else {
+    tw.textContent = phrase.slice(0, --ci);
+    if (ci === 0) { deleting = false; pi = (pi + 1) % phrases.length; }
+  }
+  setTimeout(typeWriter, deleting ? 40 : 65);
+}
+typeWriter();
+
+/* Scroll reveal */
+const revealObs = new IntersectionObserver((entries) => {
+  entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('in-view'); });
+}, { threshold: 0.12 });
+document.querySelectorAll('.reveal').forEach(el => revealObs.observe(el));
+
+/* Skill bar animation */
+const barObs = new IntersectionObserver((entries) => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      e.target.querySelectorAll('.skill-bar-fill').forEach(bar => {
+        bar.style.width = bar.dataset.w;
+      });
+    }
+  });
+}, { threshold: 0.2 });
+document.querySelectorAll('.skill-group').forEach(g => barObs.observe(g));
+
+/* Counter animation */
+function animateCounter(el) {
+  const target = parseInt(el.dataset.target, 10);
+  const step = target / (1400 / 16);
+  let current = 0;
+  const timer = setInterval(() => {
+    current = Math.min(current + step, target);
+    el.textContent = Math.floor(current);
+    if (current >= target) clearInterval(timer);
+  }, 16);
+}
+const counterObs = new IntersectionObserver((entries) => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      e.target.querySelectorAll('[data-target]').forEach(animateCounter);
+      counterObs.unobserve(e.target);
+    }
+  });
+}, { threshold: 0.5 });
+const statsEl = document.querySelector('.hero-stats');
+if (statsEl) counterObs.observe(statsEl);
+
+/* Contact form mailto handler */
+function handleFormSubmit(e) {
+  e.preventDefault();
+  const btn    = document.getElementById('contact-btn');
+  const status = document.getElementById('form-status');
+  const name    = document.getElementById('f-name').value.trim();
+  const email   = document.getElementById('f-email').value.trim();
+  const subject = document.getElementById('f-subject').value;
+  const message = document.getElementById('f-msg').value.trim();
+
+  if (!name)    { status.style.color='#ef4444'; status.textContent='Please enter your name.'; return; }
+  if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email))
+                { status.style.color='#ef4444'; status.textContent='Please enter a valid email.'; return; }
+  if (!message) { status.style.color='#ef4444'; status.textContent='Please write a message.'; return; }
+
+  const body = 'Hi Palak,\n\nYou have a new message from your portfolio.\n\nName: '+name+'\nEmail: '+email+'\nSubject: '+subject+'\n\nMessage:\n'+message+'\n\n---\nSent from palak-portfolio.vercel.app';
+  window.location.href = 'mailto:palak7989@gmail.com?subject='+encodeURIComponent('[Portfolio] '+subject+' — '+name)+'&body='+encodeURIComponent(body);
+
+  btn.textContent = '✓ Opening your email client…';
+  btn.disabled = true;
+  status.style.color = 'var(--accent)';
+  status.textContent = 'Your email client should open shortly.';
+  setTimeout(() => {
+    btn.textContent = 'Send Message →';
+    btn.disabled = false;
+    status.style.color = 'var(--muted)';
+    status.textContent = 'I typically reply within 24 hours';
+  }, 4000);
+}
+</script>
+</body>
+</html>
