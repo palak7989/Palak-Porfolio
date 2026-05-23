@@ -54,8 +54,8 @@
 
     }
 
-    
-     body.light-theme{
+
+    body.light-theme {
 
       --bg: #f7f8fc;
 
@@ -165,7 +165,7 @@
     /* =========================
    NAVBAR
 ========================= */
-    .theme-toggle {
+    /* .theme-toggle {
 
       width: 52px;
       height: 52px;
@@ -185,6 +185,44 @@
       transition: .35s ease;
 
       margin-right: 30px;
+    } */
+
+    .theme-toggle {
+
+     width: 52px;
+      height: 52px;
+
+      border-radius: 50%;
+      background: rgba(255, 255, 255, .04);
+
+      border: 1px solid var(--border);
+
+      display: flex;
+
+      align-items: center;
+ cursor: pointer;
+      justify-content: center;
+
+      flex-shrink: 0;
+
+      position: relative;
+
+      top: 0;
+
+      padding: 0;
+   margin-right: 30px;
+    }
+
+    .theme-toggle svg {
+
+      width: 22px;
+
+      height: 22px;
+
+      stroke-width: 2.2;
+
+      display: block;
+
     }
 
     .theme-toggle:hover {
@@ -229,18 +267,30 @@
       transition: .35s ease;
     }
 
-.nav-actions {
+    /* .theme-toggle svg {
 
-  display: flex;
+      width: 22px;
 
-  align-items: center;
+      height: 22px;
 
-  gap: 14px;
+      stroke: var(--primary);
 
-  margin-left: auto;
+      stroke-width: 2.2;
+
+    } */
+
+    .nav-actions {
+
+      display: flex;
+
+      align-items: center;
+
+      gap: 14px;
+
+      margin-left: auto;
 
 
-}
+    }
 
     #nav.scrolled {
 
@@ -293,7 +343,7 @@
 
       margin-left: auto;
 
-  margin-right: auto;
+      margin-right: auto;
     }
 
     .nav-links a {
@@ -476,17 +526,18 @@
 
     body.light-theme .btn-primary {
 
-  color: white;
+      color: white;
 
-}
+    }
 
     body.light-theme .hamburger span,
-body.light-theme .menu-toggle span {
+    body.light-theme .menu-toggle span {
 
-  background: #111827;
+      background: #111827;
 
-}
-     .btn-primary {
+    }
+
+    .btn-primary {
 
       color: #050505;
     }
@@ -675,8 +726,8 @@ body.light-theme .menu-toggle span {
       z-index: -3;
     }
 
-    
-     .hero-grid {
+
+    .hero-grid {
 
       background-image:
         linear-gradient(rgba(0, 0, 0, .04) 1px, transparent 1px),
@@ -1424,18 +1475,18 @@ body.light-theme .menu-toggle span {
         0 25px 60px var(--glow-soft);
     }
 
-    
-     .skill-box,
-    
-     .about-card,
-    
-     .education-card,
-    
-     .contact-info-card,
-    
-     .contact-form-card,
-    
-     .hero-stat-card {
+
+    .skill-box,
+
+    .about-card,
+
+    .education-card,
+
+    .contact-info-card,
+
+    .contact-form-card,
+
+    .hero-stat-card {
 
       box-shadow:
         0 10px 40px rgba(15, 23, 42, .06);
@@ -3406,11 +3457,11 @@ body.light-theme .menu-toggle span {
         width: 100%;
       }
 
-      .nav-cta{
+      .nav-cta {
 
-    display: none;
+        display: none;
 
-  }
+      }
     }
 
     /* =========================================
@@ -3793,7 +3844,7 @@ body.light-theme .menu-toggle span {
       </ul>
       <div class="theme-toggle" id="themeToggle">
 
-        <span id="themeIcon">☀️</span>
+        <div id="themeIcon"></div>
 
       </div>
       <!-- DESKTOP BUTTON -->
@@ -5300,16 +5351,43 @@ body.light-theme .menu-toggle span {
 
   </script>
 
+  <script src="https://unpkg.com/lucide@latest"></script>
+
   <script>
 
     const themeToggle =
       document.getElementById("themeToggle");
 
-    const themeIcon =
-      document.getElementById("themeIcon");
+
+    // UPDATE ICON
+
+    function updateThemeIcon() {
+
+      const isLight =
+        document.body.classList.contains("light-theme");
 
 
-    // TOGGLE
+      // LIGHT THEME → MOON
+
+      const iconName =
+        isLight ? "moon" : "sun";
+
+
+      // REPLACE ICON HTML
+
+      document.getElementById("themeIcon").innerHTML = `
+      <i data-lucide="${iconName}"></i>
+    `;
+
+
+      // RENDER ICON
+
+      lucide.createIcons();
+
+    }
+
+
+    // TOGGLE THEME
 
     themeToggle.addEventListener("click", () => {
 
@@ -5320,16 +5398,24 @@ body.light-theme .menu-toggle span {
 
       if (document.body.classList.contains("light-theme")) {
 
-        themeIcon.innerHTML = "🌙";
+        localStorage.setItem(
+          "theme",
+          "light"
+        );
 
-        localStorage.setItem("theme", "light");
-
-      } else {
-
-        themeIcon.innerHTML = "☀️";
-
-        localStorage.setItem("theme", "dark");
       }
+
+      else {
+
+        localStorage.setItem(
+          "theme",
+          "dark"
+        );
+
+      }
+
+
+      updateThemeIcon();
 
     });
 
@@ -5340,11 +5426,14 @@ body.light-theme .menu-toggle span {
 
       document.body.classList.add("light-theme");
 
-      themeIcon.innerHTML = "🌙";
     }
 
-  </script>
 
+    // INITIAL LOAD
+
+    updateThemeIcon();
+
+  </script>
 
 </body>
 
